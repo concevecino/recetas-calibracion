@@ -1,0 +1,31 @@
+{
+  "name": "too-small",
+  "schemaVersion": "1.0",
+  "task": "SINGLE_LABEL_CLASSIFICATION",
+  "labels": [
+    "entrante",
+    "principal",
+    "postre"
+  ],
+  "records": [
+    {
+      "id": "entrante-0000",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0000.",
+      "label": "entrante",
+      "groupId": "entrante-0000"
+    },
+    {
+      "id": "principal-0000",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0000.",
+      "label": "principal",
+      "groupId": "principal-0000"
+    },
+    {
+      "id": "postre-0000",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0000.",
+      "label": "postre",
+      "groupId": "postre-0000"
+    }
+  ],
+  "sourceType": "GROUPED"
+}

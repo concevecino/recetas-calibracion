@@ -1,0 +1,9 @@
+﻿{"version":"1.0","catalog":"recetas_rag_calibracion.json","cases":[
+{"query":"TORTILLA ESPAÑOLA","expectedFirst":"receta_0001","diet":"","maxMinutes":0},
+{"query":"gazpacho andaluz","expectedFirst":"receta_0002","diet":"","maxMinutes":0},
+{"query":"hummus","expectedFirst":"receta_0010","diet":"vegana","maxMinutes":15},
+{"query":"pollo limon","expectedFirst":"receta_0007","diet":"","maxMinutes":40},
+{"query":"quinoa garbanzos","expectedFirst":"receta_0013","diet":"","maxMinutes":30},
+{"query":"tortilla","empty":true,"diet":"","maxMinutes":1},
+{"query":"zzzzinexistente98765","empty":true,"diet":"","maxMinutes":0}
+]}

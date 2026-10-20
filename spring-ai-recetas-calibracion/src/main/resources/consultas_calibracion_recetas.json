@@ -1,0 +1,705 @@
+{
+  "metadata": {
+    "nombre": "consultas_calibracion_recetas_es",
+    "version": "1.0.0",
+    "idioma": "es",
+    "total_consultas": 30,
+    "escala_relevancia": {
+      "alta": 3,
+      "media": 1,
+      "baja": 0
+    },
+    "nota": "Las etiquetas de relevancia son juicios de referencia iniciales y deben revisarse tras evaluar el comportamiento del sistema."
+  },
+  "consultas": [
+    {
+      "id": "q001",
+      "consulta": "cenas veganas con mucha proteína",
+      "filtros": {
+        "dietas": [
+          "vegana"
+        ],
+        "categoria": [
+          "principal",
+          "legumbres"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0005",
+          "receta_0009",
+          "receta_0010",
+          "receta_0022",
+          "receta_0030",
+          "receta_0036",
+          "receta_0045"
+        ],
+        "media": [
+          "receta_0012",
+          "receta_0021",
+          "receta_0034"
+        ],
+        "baja": []
+      },
+      "objetivo": "semántica + dieta"
+    },
+    {
+      "id": "q002",
+      "consulta": "algo reconfortante para los días fríos",
+      "filtros": {},
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0005",
+          "receta_0018",
+          "receta_0020",
+          "receta_0034",
+          "receta_0043"
+        ],
+        "media": [
+          "receta_0009",
+          "receta_0037",
+          "receta_0046"
+        ],
+        "baja": []
+      },
+      "objetivo": "sinónimos y concepto"
+    },
+    {
+      "id": "q003",
+      "consulta": "pollo con limón sin nata",
+      "filtros": {
+        "ingredientes_incluidos": [
+          "pollo",
+          "limón"
+        ],
+        "ingredientes_excluidos": [
+          "nata"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0007"
+        ],
+        "media": [
+          "receta_0008",
+          "receta_0023"
+        ],
+        "baja": []
+      },
+      "objetivo": "ingredientes y exclusión"
+    },
+    {
+      "id": "q004",
+      "consulta": "comidas rápidas de menos de 20 minutos",
+      "filtros": {
+        "tiempo_max_minutos": 20
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0010",
+          "receta_0011",
+          "receta_0025",
+          "receta_0026",
+          "receta_0028",
+          "receta_0032",
+          "receta_0035",
+          "receta_0038",
+          "receta_0041",
+          "receta_0045",
+          "receta_0047"
+        ],
+        "media": [
+          "receta_0002",
+          "receta_0016",
+          "receta_0027"
+        ],
+        "baja": []
+      },
+      "objetivo": "filtro numérico"
+    },
+    {
+      "id": "q005",
+      "consulta": "platos sin carne con garbanzos",
+      "filtros": {
+        "ingredientes_incluidos": [
+          "garbanzos"
+        ],
+        "excluir_carnes": true
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0009",
+          "receta_0010",
+          "receta_0012",
+          "receta_0022",
+          "receta_0030",
+          "receta_0036"
+        ],
+        "media": [
+          "receta_0031"
+        ],
+        "baja": []
+      },
+      "objetivo": "ingrediente + intención dietética"
+    },
+    {
+      "id": "q006",
+      "consulta": "postres de chocolate para horno",
+      "filtros": {
+        "categoria": [
+          "postre"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0028"
+        ],
+        "media": [
+          "receta_0047",
+          "receta_0048"
+        ],
+        "baja": []
+      },
+      "objetivo": "categoría y método"
+    },
+    {
+      "id": "q007",
+      "consulta": "alternativas a la tortilla de patatas",
+      "filtros": {},
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0025",
+          "receta_0039"
+        ],
+        "media": [
+          "receta_0006",
+          "receta_0011"
+        ],
+        "baja": []
+      },
+      "objetivo": "similitud culinaria"
+    },
+    {
+      "id": "q008",
+      "consulta": "recetas con pescado blanco y verduras",
+      "filtros": {
+        "ingredientes_incluidos": [
+          "pescado blanco"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0037",
+          "receta_0049"
+        ],
+        "media": [
+          "receta_0014",
+          "receta_0015"
+        ],
+        "baja": []
+      },
+      "objetivo": "concepto de ingrediente"
+    },
+    {
+      "id": "q009",
+      "consulta": "desayuno que pueda dejar preparado la noche anterior",
+      "filtros": {
+        "categoria": [
+          "desayuno"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0025",
+          "receta_0042"
+        ],
+        "media": [
+          "receta_0026",
+          "receta_0041"
+        ],
+        "baja": []
+      },
+      "objetivo": "intención temporal"
+    },
+    {
+      "id": "q010",
+      "consulta": "platos asiáticos con tofu",
+      "filtros": {
+        "ingredientes_incluidos": [
+          "tofu"
+        ],
+        "cocina": [
+          "asiática",
+          "japonesa"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0032",
+          "receta_0033"
+        ],
+        "media": [
+          "receta_0034"
+        ],
+        "baja": []
+      },
+      "objetivo": "cocina regional + ingrediente"
+    },
+    {
+      "id": "q011",
+      "consulta": "algo fresco sin cocinar para el verano",
+      "filtros": {},
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0002",
+          "receta_0011",
+          "receta_0012",
+          "receta_0035",
+          "receta_0038"
+        ],
+        "media": [
+          "receta_0026",
+          "receta_0042"
+        ],
+        "baja": []
+      },
+      "objetivo": "temporada + método"
+    },
+    {
+      "id": "q012",
+      "consulta": "recetas económicas con legumbres",
+      "filtros": {
+        "ingredientes_incluidos": [
+          "legumbres"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0005",
+          "receta_0009",
+          "receta_0021",
+          "receta_0022",
+          "receta_0030",
+          "receta_0036",
+          "receta_0043"
+        ],
+        "media": [
+          "receta_0012",
+          "receta_0031"
+        ],
+        "baja": []
+      },
+      "objetivo": "concepto + categoría"
+    },
+    {
+      "id": "q013",
+      "consulta": "una sopa cremosa de verduras sin lácteos",
+      "filtros": {
+        "categoria": [
+          "sopa"
+        ],
+        "dietas": [
+          "sin lactosa"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0020",
+          "receta_0034"
+        ],
+        "media": [
+          "receta_0002",
+          "receta_0033"
+        ],
+        "baja": []
+      },
+      "objetivo": "textura + restricción"
+    },
+    {
+      "id": "q014",
+      "consulta": "plato italiano con albahaca y queso",
+      "filtros": {
+        "cocina": [
+          "italiana"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0016",
+          "receta_0019",
+          "receta_0038"
+        ],
+        "media": [
+          "receta_0018",
+          "receta_0040"
+        ],
+        "baja": []
+      },
+      "objetivo": "cocina + ingredientes"
+    },
+    {
+      "id": "q015",
+      "consulta": "receta vegana sin gluten para preparar en lote",
+      "filtros": {
+        "dietas": [
+          "vegana",
+          "sin gluten"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0005",
+          "receta_0009",
+          "receta_0021",
+          "receta_0022",
+          "receta_0030",
+          "receta_0036",
+          "receta_0043"
+        ],
+        "media": [
+          "receta_0002",
+          "receta_0020"
+        ],
+        "baja": []
+      },
+      "objetivo": "restricciones múltiples"
+    },
+    {
+      "id": "q016",
+      "consulta": "comida con arroz que no sea paella",
+      "filtros": {
+        "ingredientes_incluidos": [
+          "arroz"
+        ],
+        "excluir_nombres": [
+          "Paella de verduras"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0008",
+          "receta_0018",
+          "receta_0032",
+          "receta_0033",
+          "receta_0045"
+        ],
+        "media": [
+          "receta_0024",
+          "receta_0029"
+        ],
+        "baja": []
+      },
+      "objetivo": "exclusión de entidad"
+    },
+    {
+      "id": "q017",
+      "consulta": "platos con berenjena para horno",
+      "filtros": {
+        "ingredientes_incluidos": [
+          "berenjena"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0020",
+          "receta_0035",
+          "receta_0040"
+        ],
+        "media": [
+          "receta_0039"
+        ],
+        "baja": []
+      },
+      "objetivo": "ingrediente + método"
+    },
+    {
+      "id": "q018",
+      "consulta": "recetas de huevo para cenar",
+      "filtros": {
+        "ingredientes_incluidos": [
+          "huevo"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0001",
+          "receta_0024",
+          "receta_0039"
+        ],
+        "media": [
+          "receta_0006",
+          "receta_0028",
+          "receta_0047"
+        ],
+        "baja": []
+      },
+      "objetivo": "ingrediente + ocasión"
+    },
+    {
+      "id": "q019",
+      "consulta": "comida mexicana picante con legumbres",
+      "filtros": {
+        "cocina": [
+          "mexicana",
+          "tex-mex"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0021",
+          "receta_0022"
+        ],
+        "media": [
+          "receta_0041"
+        ],
+        "baja": []
+      },
+      "objetivo": "región + sabor"
+    },
+    {
+      "id": "q020",
+      "consulta": "postre de fruta sin horno",
+      "filtros": {
+        "categoria": [
+          "postre"
+        ],
+        "metodo_excluido": [
+          "horno"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0030"
+        ],
+        "media": [
+          "receta_0029",
+          "receta_0026"
+        ],
+        "baja": []
+      },
+      "objetivo": "método + categoría"
+    },
+    {
+      "id": "q021",
+      "consulta": "pasta con salsa de tomate sin queso",
+      "filtros": {
+        "ingredientes_incluidos": [
+          "pasta",
+          "tomate"
+        ],
+        "ingredientes_excluidos": [
+          "queso"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0017"
+        ],
+        "media": [
+          "receta_0016"
+        ],
+        "baja": []
+      },
+      "objetivo": "ingredientes y exclusión"
+    },
+    {
+      "id": "q022",
+      "consulta": "recetas de invierno con calabaza",
+      "filtros": {
+        "ingredientes_incluidos": [
+          "calabaza"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0020",
+          "receta_0031"
+        ],
+        "media": [
+          "receta_0034"
+        ],
+        "baja": []
+      },
+      "objetivo": "ingrediente + estación"
+    },
+    {
+      "id": "q023",
+      "consulta": "platos de desayuno con avena",
+      "filtros": {
+        "categoria": [
+          "desayuno"
+        ],
+        "ingredientes_incluidos": [
+          "avena"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0025",
+          "receta_0026",
+          "receta_0042"
+        ],
+        "media": [
+          "receta_0027"
+        ],
+        "baja": []
+      },
+      "objetivo": "categoría + ingrediente"
+    },
+    {
+      "id": "q024",
+      "consulta": "recetas con setas y arroz cremoso",
+      "filtros": {
+        "ingredientes_incluidos": [
+          "setas",
+          "arroz"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0018"
+        ],
+        "media": [
+          "receta_0034"
+        ],
+        "baja": []
+      },
+      "objetivo": "coocurrencia de ingredientes"
+    },
+    {
+      "id": "q025",
+      "consulta": "receta tradicional española con patatas",
+      "filtros": {
+        "cocina": [
+          "española"
+        ],
+        "ingredientes_incluidos": [
+          "patata"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0001",
+          "receta_0005",
+          "receta_0041",
+          "receta_0043"
+        ],
+        "media": [
+          "receta_0002",
+          "receta_0006"
+        ],
+        "baja": []
+      },
+      "objetivo": "cocina + ingrediente"
+    },
+    {
+      "id": "q026",
+      "consulta": "plato vegano alto en fibra y sin gluten",
+      "filtros": {
+        "dietas": [
+          "vegana",
+          "sin gluten"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0005",
+          "receta_0009",
+          "receta_0021",
+          "receta_0022",
+          "receta_0030",
+          "receta_0036"
+        ],
+        "media": [
+          "receta_0020",
+          "receta_0043"
+        ],
+        "baja": []
+      },
+      "objetivo": "conceptos nutricionales aproximados"
+    },
+    {
+      "id": "q027",
+      "consulta": "una cena ligera de pescado al horno",
+      "filtros": {
+        "categoria": [
+          "pescado"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0014",
+          "receta_0037"
+        ],
+        "media": [
+          "receta_0015",
+          "receta_0049"
+        ],
+        "baja": []
+      },
+      "objetivo": "ocasión + técnica"
+    },
+    {
+      "id": "q028",
+      "consulta": "algo crujiente de patata como tapa",
+      "filtros": {
+        "ingredientes_incluidos": [
+          "patata"
+        ],
+        "categoria": [
+          "aperitivo"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0041",
+          "receta_0046"
+        ],
+        "media": [
+          "receta_0001"
+        ],
+        "baja": []
+      },
+      "objetivo": "textura + ocasión"
+    },
+    {
+      "id": "q029",
+      "consulta": "receta con tofu que no sea sopa",
+      "filtros": {
+        "ingredientes_incluidos": [
+          "tofu"
+        ],
+        "excluir_nombres": [
+          "Sopa de miso con tofu"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0032"
+        ],
+        "media": [],
+        "baja": []
+      },
+      "objetivo": "exclusión por tipo"
+    },
+    {
+      "id": "q030",
+      "consulta": "plato de verduras provenzal",
+      "filtros": {
+        "cocina": [
+          "francesa"
+        ]
+      },
+      "relevancia_esperada": {
+        "alta": [
+          "receta_0020"
+        ],
+        "media": [
+          "receta_0039"
+        ],
+        "baja": []
+      },
+      "objetivo": "sinónimo regional"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "conflict",
+  "schemaVersion": "1.0",
+  "task": "SINGLE_LABEL_CLASSIFICATION",
+  "labels": [
+    "entrante",
+    "principal",
+    "postre"
+  ],
+  "records": [
+    {
+      "id": "entrante-0000",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0000.",
+      "label": "entrante",
+      "groupId": "entrante-0000"
+    },
+    {
+      "id": "entrante-0001",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0001.",
+      "label": "entrante",
+      "groupId": "entrante-0000"
+    },
+    {
+      "id": "entrante-0002",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0002.",
+      "label": "entrante",
+      "groupId": "entrante-0001"
+    },
+    {
+      "id": "entrante-0003",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0003.",
+      "label": "entrante",
+      "groupId": "entrante-0001"
+    },
+    {
+      "id": "principal-0000",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0000.",
+      "label": "principal",
+      "groupId": "principal-0000"
+    },
+    {
+      "id": "principal-0001",
+      "text": "Pescado al horno con patatas. Variante de prueba 0001.",
+      "label": "principal",
+      "groupId": "principal-0000"
+    },
+    {
+      "id": "principal-0002",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0002.",
+      "label": "principal",
+      "groupId": "principal-0001"
+    },
+    {
+      "id": "principal-0003",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0003.",
+      "label": "principal",
+      "groupId": "principal-0001"
+    },
+    {
+      "id": "postre-0000",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0000.",
+      "label": "postre",
+      "groupId": "postre-0000"
+    },
+    {
+      "id": "postre-0001",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0001.",
+      "label": "postre",
+      "groupId": "postre-0000"
+    },
+    {
+      "id": "postre-0002",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0002.",
+      "label": "postre",
+      "groupId": "postre-0001"
+    },
+    {
+      "id": "postre-0003",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0003.",
+      "label": "postre",
+      "groupId": "postre-0001"
+    }
+  ],
+  "sourceType": "GROUPED"
+}

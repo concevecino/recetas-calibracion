@@ -1,0 +1,1813 @@
+{
+  "name": "recipes-balanced",
+  "schemaVersion": "1.0",
+  "task": "SINGLE_LABEL_CLASSIFICATION",
+  "labels": [
+    "entrante",
+    "principal",
+    "postre"
+  ],
+  "records": [
+    {
+      "id": "entrante-0000",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0000.",
+      "label": "entrante",
+      "groupId": "entrante-0000"
+    },
+    {
+      "id": "entrante-0001",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0001.",
+      "label": "entrante",
+      "groupId": "entrante-0000"
+    },
+    {
+      "id": "entrante-0002",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0002.",
+      "label": "entrante",
+      "groupId": "entrante-0001"
+    },
+    {
+      "id": "entrante-0003",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0003.",
+      "label": "entrante",
+      "groupId": "entrante-0001"
+    },
+    {
+      "id": "entrante-0004",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0004.",
+      "label": "entrante",
+      "groupId": "entrante-0002"
+    },
+    {
+      "id": "entrante-0005",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0005.",
+      "label": "entrante",
+      "groupId": "entrante-0002"
+    },
+    {
+      "id": "entrante-0006",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0006.",
+      "label": "entrante",
+      "groupId": "entrante-0003"
+    },
+    {
+      "id": "entrante-0007",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0007.",
+      "label": "entrante",
+      "groupId": "entrante-0003"
+    },
+    {
+      "id": "entrante-0008",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0008.",
+      "label": "entrante",
+      "groupId": "entrante-0004"
+    },
+    {
+      "id": "entrante-0009",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0009.",
+      "label": "entrante",
+      "groupId": "entrante-0004"
+    },
+    {
+      "id": "entrante-0010",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0010.",
+      "label": "entrante",
+      "groupId": "entrante-0005"
+    },
+    {
+      "id": "entrante-0011",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0011.",
+      "label": "entrante",
+      "groupId": "entrante-0005"
+    },
+    {
+      "id": "entrante-0012",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0012.",
+      "label": "entrante",
+      "groupId": "entrante-0006"
+    },
+    {
+      "id": "entrante-0013",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0013.",
+      "label": "entrante",
+      "groupId": "entrante-0006"
+    },
+    {
+      "id": "entrante-0014",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0014.",
+      "label": "entrante",
+      "groupId": "entrante-0007"
+    },
+    {
+      "id": "entrante-0015",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0015.",
+      "label": "entrante",
+      "groupId": "entrante-0007"
+    },
+    {
+      "id": "entrante-0016",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0016.",
+      "label": "entrante",
+      "groupId": "entrante-0008"
+    },
+    {
+      "id": "entrante-0017",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0017.",
+      "label": "entrante",
+      "groupId": "entrante-0008"
+    },
+    {
+      "id": "entrante-0018",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0018.",
+      "label": "entrante",
+      "groupId": "entrante-0009"
+    },
+    {
+      "id": "entrante-0019",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0019.",
+      "label": "entrante",
+      "groupId": "entrante-0009"
+    },
+    {
+      "id": "entrante-0020",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0020.",
+      "label": "entrante",
+      "groupId": "entrante-0010"
+    },
+    {
+      "id": "entrante-0021",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0021.",
+      "label": "entrante",
+      "groupId": "entrante-0010"
+    },
+    {
+      "id": "entrante-0022",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0022.",
+      "label": "entrante",
+      "groupId": "entrante-0011"
+    },
+    {
+      "id": "entrante-0023",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0023.",
+      "label": "entrante",
+      "groupId": "entrante-0011"
+    },
+    {
+      "id": "entrante-0024",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0024.",
+      "label": "entrante",
+      "groupId": "entrante-0012"
+    },
+    {
+      "id": "entrante-0025",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0025.",
+      "label": "entrante",
+      "groupId": "entrante-0012"
+    },
+    {
+      "id": "entrante-0026",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0026.",
+      "label": "entrante",
+      "groupId": "entrante-0013"
+    },
+    {
+      "id": "entrante-0027",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0027.",
+      "label": "entrante",
+      "groupId": "entrante-0013"
+    },
+    {
+      "id": "entrante-0028",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0028.",
+      "label": "entrante",
+      "groupId": "entrante-0014"
+    },
+    {
+      "id": "entrante-0029",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0029.",
+      "label": "entrante",
+      "groupId": "entrante-0014"
+    },
+    {
+      "id": "entrante-0030",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0030.",
+      "label": "entrante",
+      "groupId": "entrante-0015"
+    },
+    {
+      "id": "entrante-0031",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0031.",
+      "label": "entrante",
+      "groupId": "entrante-0015"
+    },
+    {
+      "id": "entrante-0032",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0032.",
+      "label": "entrante",
+      "groupId": "entrante-0016"
+    },
+    {
+      "id": "entrante-0033",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0033.",
+      "label": "entrante",
+      "groupId": "entrante-0016"
+    },
+    {
+      "id": "entrante-0034",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0034.",
+      "label": "entrante",
+      "groupId": "entrante-0017"
+    },
+    {
+      "id": "entrante-0035",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0035.",
+      "label": "entrante",
+      "groupId": "entrante-0017"
+    },
+    {
+      "id": "entrante-0036",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0036.",
+      "label": "entrante",
+      "groupId": "entrante-0018"
+    },
+    {
+      "id": "entrante-0037",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0037.",
+      "label": "entrante",
+      "groupId": "entrante-0018"
+    },
+    {
+      "id": "entrante-0038",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0038.",
+      "label": "entrante",
+      "groupId": "entrante-0019"
+    },
+    {
+      "id": "entrante-0039",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0039.",
+      "label": "entrante",
+      "groupId": "entrante-0019"
+    },
+    {
+      "id": "entrante-0040",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0040.",
+      "label": "entrante",
+      "groupId": "entrante-0020"
+    },
+    {
+      "id": "entrante-0041",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0041.",
+      "label": "entrante",
+      "groupId": "entrante-0020"
+    },
+    {
+      "id": "entrante-0042",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0042.",
+      "label": "entrante",
+      "groupId": "entrante-0021"
+    },
+    {
+      "id": "entrante-0043",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0043.",
+      "label": "entrante",
+      "groupId": "entrante-0021"
+    },
+    {
+      "id": "entrante-0044",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0044.",
+      "label": "entrante",
+      "groupId": "entrante-0022"
+    },
+    {
+      "id": "entrante-0045",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0045.",
+      "label": "entrante",
+      "groupId": "entrante-0022"
+    },
+    {
+      "id": "entrante-0046",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0046.",
+      "label": "entrante",
+      "groupId": "entrante-0023"
+    },
+    {
+      "id": "entrante-0047",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0047.",
+      "label": "entrante",
+      "groupId": "entrante-0023"
+    },
+    {
+      "id": "entrante-0048",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0048.",
+      "label": "entrante",
+      "groupId": "entrante-0024"
+    },
+    {
+      "id": "entrante-0049",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0049.",
+      "label": "entrante",
+      "groupId": "entrante-0024"
+    },
+    {
+      "id": "entrante-0050",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0050.",
+      "label": "entrante",
+      "groupId": "entrante-0025"
+    },
+    {
+      "id": "entrante-0051",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0051.",
+      "label": "entrante",
+      "groupId": "entrante-0025"
+    },
+    {
+      "id": "entrante-0052",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0052.",
+      "label": "entrante",
+      "groupId": "entrante-0026"
+    },
+    {
+      "id": "entrante-0053",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0053.",
+      "label": "entrante",
+      "groupId": "entrante-0026"
+    },
+    {
+      "id": "entrante-0054",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0054.",
+      "label": "entrante",
+      "groupId": "entrante-0027"
+    },
+    {
+      "id": "entrante-0055",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0055.",
+      "label": "entrante",
+      "groupId": "entrante-0027"
+    },
+    {
+      "id": "entrante-0056",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0056.",
+      "label": "entrante",
+      "groupId": "entrante-0028"
+    },
+    {
+      "id": "entrante-0057",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0057.",
+      "label": "entrante",
+      "groupId": "entrante-0028"
+    },
+    {
+      "id": "entrante-0058",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0058.",
+      "label": "entrante",
+      "groupId": "entrante-0029"
+    },
+    {
+      "id": "entrante-0059",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0059.",
+      "label": "entrante",
+      "groupId": "entrante-0029"
+    },
+    {
+      "id": "entrante-0060",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0060.",
+      "label": "entrante",
+      "groupId": "entrante-0030"
+    },
+    {
+      "id": "entrante-0061",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0061.",
+      "label": "entrante",
+      "groupId": "entrante-0030"
+    },
+    {
+      "id": "entrante-0062",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0062.",
+      "label": "entrante",
+      "groupId": "entrante-0031"
+    },
+    {
+      "id": "entrante-0063",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0063.",
+      "label": "entrante",
+      "groupId": "entrante-0031"
+    },
+    {
+      "id": "entrante-0064",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0064.",
+      "label": "entrante",
+      "groupId": "entrante-0032"
+    },
+    {
+      "id": "entrante-0065",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0065.",
+      "label": "entrante",
+      "groupId": "entrante-0032"
+    },
+    {
+      "id": "entrante-0066",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0066.",
+      "label": "entrante",
+      "groupId": "entrante-0033"
+    },
+    {
+      "id": "entrante-0067",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0067.",
+      "label": "entrante",
+      "groupId": "entrante-0033"
+    },
+    {
+      "id": "entrante-0068",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0068.",
+      "label": "entrante",
+      "groupId": "entrante-0034"
+    },
+    {
+      "id": "entrante-0069",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0069.",
+      "label": "entrante",
+      "groupId": "entrante-0034"
+    },
+    {
+      "id": "entrante-0070",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0070.",
+      "label": "entrante",
+      "groupId": "entrante-0035"
+    },
+    {
+      "id": "entrante-0071",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0071.",
+      "label": "entrante",
+      "groupId": "entrante-0035"
+    },
+    {
+      "id": "entrante-0072",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0072.",
+      "label": "entrante",
+      "groupId": "entrante-0036"
+    },
+    {
+      "id": "entrante-0073",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0073.",
+      "label": "entrante",
+      "groupId": "entrante-0036"
+    },
+    {
+      "id": "entrante-0074",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0074.",
+      "label": "entrante",
+      "groupId": "entrante-0037"
+    },
+    {
+      "id": "entrante-0075",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0075.",
+      "label": "entrante",
+      "groupId": "entrante-0037"
+    },
+    {
+      "id": "entrante-0076",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0076.",
+      "label": "entrante",
+      "groupId": "entrante-0038"
+    },
+    {
+      "id": "entrante-0077",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0077.",
+      "label": "entrante",
+      "groupId": "entrante-0038"
+    },
+    {
+      "id": "entrante-0078",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0078.",
+      "label": "entrante",
+      "groupId": "entrante-0039"
+    },
+    {
+      "id": "entrante-0079",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0079.",
+      "label": "entrante",
+      "groupId": "entrante-0039"
+    },
+    {
+      "id": "entrante-0080",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0080.",
+      "label": "entrante",
+      "groupId": "entrante-0040"
+    },
+    {
+      "id": "entrante-0081",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0081.",
+      "label": "entrante",
+      "groupId": "entrante-0040"
+    },
+    {
+      "id": "entrante-0082",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0082.",
+      "label": "entrante",
+      "groupId": "entrante-0041"
+    },
+    {
+      "id": "entrante-0083",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0083.",
+      "label": "entrante",
+      "groupId": "entrante-0041"
+    },
+    {
+      "id": "entrante-0084",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0084.",
+      "label": "entrante",
+      "groupId": "entrante-0042"
+    },
+    {
+      "id": "entrante-0085",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0085.",
+      "label": "entrante",
+      "groupId": "entrante-0042"
+    },
+    {
+      "id": "entrante-0086",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0086.",
+      "label": "entrante",
+      "groupId": "entrante-0043"
+    },
+    {
+      "id": "entrante-0087",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0087.",
+      "label": "entrante",
+      "groupId": "entrante-0043"
+    },
+    {
+      "id": "entrante-0088",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0088.",
+      "label": "entrante",
+      "groupId": "entrante-0044"
+    },
+    {
+      "id": "entrante-0089",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0089.",
+      "label": "entrante",
+      "groupId": "entrante-0044"
+    },
+    {
+      "id": "entrante-0090",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0090.",
+      "label": "entrante",
+      "groupId": "entrante-0045"
+    },
+    {
+      "id": "entrante-0091",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0091.",
+      "label": "entrante",
+      "groupId": "entrante-0045"
+    },
+    {
+      "id": "entrante-0092",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0092.",
+      "label": "entrante",
+      "groupId": "entrante-0046"
+    },
+    {
+      "id": "entrante-0093",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0093.",
+      "label": "entrante",
+      "groupId": "entrante-0046"
+    },
+    {
+      "id": "entrante-0094",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0094.",
+      "label": "entrante",
+      "groupId": "entrante-0047"
+    },
+    {
+      "id": "entrante-0095",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0095.",
+      "label": "entrante",
+      "groupId": "entrante-0047"
+    },
+    {
+      "id": "entrante-0096",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0096.",
+      "label": "entrante",
+      "groupId": "entrante-0048"
+    },
+    {
+      "id": "entrante-0097",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0097.",
+      "label": "entrante",
+      "groupId": "entrante-0048"
+    },
+    {
+      "id": "entrante-0098",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0098.",
+      "label": "entrante",
+      "groupId": "entrante-0049"
+    },
+    {
+      "id": "entrante-0099",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0099.",
+      "label": "entrante",
+      "groupId": "entrante-0049"
+    },
+    {
+      "id": "principal-0000",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0000.",
+      "label": "principal",
+      "groupId": "principal-0000"
+    },
+    {
+      "id": "principal-0001",
+      "text": "Pescado al horno con patatas. Variante de prueba 0001.",
+      "label": "principal",
+      "groupId": "principal-0000"
+    },
+    {
+      "id": "principal-0002",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0002.",
+      "label": "principal",
+      "groupId": "principal-0001"
+    },
+    {
+      "id": "principal-0003",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0003.",
+      "label": "principal",
+      "groupId": "principal-0001"
+    },
+    {
+      "id": "principal-0004",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0004.",
+      "label": "principal",
+      "groupId": "principal-0002"
+    },
+    {
+      "id": "principal-0005",
+      "text": "Pescado al horno con patatas. Variante de prueba 0005.",
+      "label": "principal",
+      "groupId": "principal-0002"
+    },
+    {
+      "id": "principal-0006",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0006.",
+      "label": "principal",
+      "groupId": "principal-0003"
+    },
+    {
+      "id": "principal-0007",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0007.",
+      "label": "principal",
+      "groupId": "principal-0003"
+    },
+    {
+      "id": "principal-0008",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0008.",
+      "label": "principal",
+      "groupId": "principal-0004"
+    },
+    {
+      "id": "principal-0009",
+      "text": "Pescado al horno con patatas. Variante de prueba 0009.",
+      "label": "principal",
+      "groupId": "principal-0004"
+    },
+    {
+      "id": "principal-0010",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0010.",
+      "label": "principal",
+      "groupId": "principal-0005"
+    },
+    {
+      "id": "principal-0011",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0011.",
+      "label": "principal",
+      "groupId": "principal-0005"
+    },
+    {
+      "id": "principal-0012",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0012.",
+      "label": "principal",
+      "groupId": "principal-0006"
+    },
+    {
+      "id": "principal-0013",
+      "text": "Pescado al horno con patatas. Variante de prueba 0013.",
+      "label": "principal",
+      "groupId": "principal-0006"
+    },
+    {
+      "id": "principal-0014",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0014.",
+      "label": "principal",
+      "groupId": "principal-0007"
+    },
+    {
+      "id": "principal-0015",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0015.",
+      "label": "principal",
+      "groupId": "principal-0007"
+    },
+    {
+      "id": "principal-0016",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0016.",
+      "label": "principal",
+      "groupId": "principal-0008"
+    },
+    {
+      "id": "principal-0017",
+      "text": "Pescado al horno con patatas. Variante de prueba 0017.",
+      "label": "principal",
+      "groupId": "principal-0008"
+    },
+    {
+      "id": "principal-0018",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0018.",
+      "label": "principal",
+      "groupId": "principal-0009"
+    },
+    {
+      "id": "principal-0019",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0019.",
+      "label": "principal",
+      "groupId": "principal-0009"
+    },
+    {
+      "id": "principal-0020",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0020.",
+      "label": "principal",
+      "groupId": "principal-0010"
+    },
+    {
+      "id": "principal-0021",
+      "text": "Pescado al horno con patatas. Variante de prueba 0021.",
+      "label": "principal",
+      "groupId": "principal-0010"
+    },
+    {
+      "id": "principal-0022",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0022.",
+      "label": "principal",
+      "groupId": "principal-0011"
+    },
+    {
+      "id": "principal-0023",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0023.",
+      "label": "principal",
+      "groupId": "principal-0011"
+    },
+    {
+      "id": "principal-0024",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0024.",
+      "label": "principal",
+      "groupId": "principal-0012"
+    },
+    {
+      "id": "principal-0025",
+      "text": "Pescado al horno con patatas. Variante de prueba 0025.",
+      "label": "principal",
+      "groupId": "principal-0012"
+    },
+    {
+      "id": "principal-0026",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0026.",
+      "label": "principal",
+      "groupId": "principal-0013"
+    },
+    {
+      "id": "principal-0027",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0027.",
+      "label": "principal",
+      "groupId": "principal-0013"
+    },
+    {
+      "id": "principal-0028",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0028.",
+      "label": "principal",
+      "groupId": "principal-0014"
+    },
+    {
+      "id": "principal-0029",
+      "text": "Pescado al horno con patatas. Variante de prueba 0029.",
+      "label": "principal",
+      "groupId": "principal-0014"
+    },
+    {
+      "id": "principal-0030",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0030.",
+      "label": "principal",
+      "groupId": "principal-0015"
+    },
+    {
+      "id": "principal-0031",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0031.",
+      "label": "principal",
+      "groupId": "principal-0015"
+    },
+    {
+      "id": "principal-0032",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0032.",
+      "label": "principal",
+      "groupId": "principal-0016"
+    },
+    {
+      "id": "principal-0033",
+      "text": "Pescado al horno con patatas. Variante de prueba 0033.",
+      "label": "principal",
+      "groupId": "principal-0016"
+    },
+    {
+      "id": "principal-0034",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0034.",
+      "label": "principal",
+      "groupId": "principal-0017"
+    },
+    {
+      "id": "principal-0035",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0035.",
+      "label": "principal",
+      "groupId": "principal-0017"
+    },
+    {
+      "id": "principal-0036",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0036.",
+      "label": "principal",
+      "groupId": "principal-0018"
+    },
+    {
+      "id": "principal-0037",
+      "text": "Pescado al horno con patatas. Variante de prueba 0037.",
+      "label": "principal",
+      "groupId": "principal-0018"
+    },
+    {
+      "id": "principal-0038",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0038.",
+      "label": "principal",
+      "groupId": "principal-0019"
+    },
+    {
+      "id": "principal-0039",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0039.",
+      "label": "principal",
+      "groupId": "principal-0019"
+    },
+    {
+      "id": "principal-0040",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0040.",
+      "label": "principal",
+      "groupId": "principal-0020"
+    },
+    {
+      "id": "principal-0041",
+      "text": "Pescado al horno con patatas. Variante de prueba 0041.",
+      "label": "principal",
+      "groupId": "principal-0020"
+    },
+    {
+      "id": "principal-0042",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0042.",
+      "label": "principal",
+      "groupId": "principal-0021"
+    },
+    {
+      "id": "principal-0043",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0043.",
+      "label": "principal",
+      "groupId": "principal-0021"
+    },
+    {
+      "id": "principal-0044",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0044.",
+      "label": "principal",
+      "groupId": "principal-0022"
+    },
+    {
+      "id": "principal-0045",
+      "text": "Pescado al horno con patatas. Variante de prueba 0045.",
+      "label": "principal",
+      "groupId": "principal-0022"
+    },
+    {
+      "id": "principal-0046",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0046.",
+      "label": "principal",
+      "groupId": "principal-0023"
+    },
+    {
+      "id": "principal-0047",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0047.",
+      "label": "principal",
+      "groupId": "principal-0023"
+    },
+    {
+      "id": "principal-0048",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0048.",
+      "label": "principal",
+      "groupId": "principal-0024"
+    },
+    {
+      "id": "principal-0049",
+      "text": "Pescado al horno con patatas. Variante de prueba 0049.",
+      "label": "principal",
+      "groupId": "principal-0024"
+    },
+    {
+      "id": "principal-0050",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0050.",
+      "label": "principal",
+      "groupId": "principal-0025"
+    },
+    {
+      "id": "principal-0051",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0051.",
+      "label": "principal",
+      "groupId": "principal-0025"
+    },
+    {
+      "id": "principal-0052",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0052.",
+      "label": "principal",
+      "groupId": "principal-0026"
+    },
+    {
+      "id": "principal-0053",
+      "text": "Pescado al horno con patatas. Variante de prueba 0053.",
+      "label": "principal",
+      "groupId": "principal-0026"
+    },
+    {
+      "id": "principal-0054",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0054.",
+      "label": "principal",
+      "groupId": "principal-0027"
+    },
+    {
+      "id": "principal-0055",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0055.",
+      "label": "principal",
+      "groupId": "principal-0027"
+    },
+    {
+      "id": "principal-0056",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0056.",
+      "label": "principal",
+      "groupId": "principal-0028"
+    },
+    {
+      "id": "principal-0057",
+      "text": "Pescado al horno con patatas. Variante de prueba 0057.",
+      "label": "principal",
+      "groupId": "principal-0028"
+    },
+    {
+      "id": "principal-0058",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0058.",
+      "label": "principal",
+      "groupId": "principal-0029"
+    },
+    {
+      "id": "principal-0059",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0059.",
+      "label": "principal",
+      "groupId": "principal-0029"
+    },
+    {
+      "id": "principal-0060",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0060.",
+      "label": "principal",
+      "groupId": "principal-0030"
+    },
+    {
+      "id": "principal-0061",
+      "text": "Pescado al horno con patatas. Variante de prueba 0061.",
+      "label": "principal",
+      "groupId": "principal-0030"
+    },
+    {
+      "id": "principal-0062",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0062.",
+      "label": "principal",
+      "groupId": "principal-0031"
+    },
+    {
+      "id": "principal-0063",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0063.",
+      "label": "principal",
+      "groupId": "principal-0031"
+    },
+    {
+      "id": "principal-0064",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0064.",
+      "label": "principal",
+      "groupId": "principal-0032"
+    },
+    {
+      "id": "principal-0065",
+      "text": "Pescado al horno con patatas. Variante de prueba 0065.",
+      "label": "principal",
+      "groupId": "principal-0032"
+    },
+    {
+      "id": "principal-0066",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0066.",
+      "label": "principal",
+      "groupId": "principal-0033"
+    },
+    {
+      "id": "principal-0067",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0067.",
+      "label": "principal",
+      "groupId": "principal-0033"
+    },
+    {
+      "id": "principal-0068",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0068.",
+      "label": "principal",
+      "groupId": "principal-0034"
+    },
+    {
+      "id": "principal-0069",
+      "text": "Pescado al horno con patatas. Variante de prueba 0069.",
+      "label": "principal",
+      "groupId": "principal-0034"
+    },
+    {
+      "id": "principal-0070",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0070.",
+      "label": "principal",
+      "groupId": "principal-0035"
+    },
+    {
+      "id": "principal-0071",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0071.",
+      "label": "principal",
+      "groupId": "principal-0035"
+    },
+    {
+      "id": "principal-0072",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0072.",
+      "label": "principal",
+      "groupId": "principal-0036"
+    },
+    {
+      "id": "principal-0073",
+      "text": "Pescado al horno con patatas. Variante de prueba 0073.",
+      "label": "principal",
+      "groupId": "principal-0036"
+    },
+    {
+      "id": "principal-0074",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0074.",
+      "label": "principal",
+      "groupId": "principal-0037"
+    },
+    {
+      "id": "principal-0075",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0075.",
+      "label": "principal",
+      "groupId": "principal-0037"
+    },
+    {
+      "id": "principal-0076",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0076.",
+      "label": "principal",
+      "groupId": "principal-0038"
+    },
+    {
+      "id": "principal-0077",
+      "text": "Pescado al horno con patatas. Variante de prueba 0077.",
+      "label": "principal",
+      "groupId": "principal-0038"
+    },
+    {
+      "id": "principal-0078",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0078.",
+      "label": "principal",
+      "groupId": "principal-0039"
+    },
+    {
+      "id": "principal-0079",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0079.",
+      "label": "principal",
+      "groupId": "principal-0039"
+    },
+    {
+      "id": "principal-0080",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0080.",
+      "label": "principal",
+      "groupId": "principal-0040"
+    },
+    {
+      "id": "principal-0081",
+      "text": "Pescado al horno con patatas. Variante de prueba 0081.",
+      "label": "principal",
+      "groupId": "principal-0040"
+    },
+    {
+      "id": "principal-0082",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0082.",
+      "label": "principal",
+      "groupId": "principal-0041"
+    },
+    {
+      "id": "principal-0083",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0083.",
+      "label": "principal",
+      "groupId": "principal-0041"
+    },
+    {
+      "id": "principal-0084",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0084.",
+      "label": "principal",
+      "groupId": "principal-0042"
+    },
+    {
+      "id": "principal-0085",
+      "text": "Pescado al horno con patatas. Variante de prueba 0085.",
+      "label": "principal",
+      "groupId": "principal-0042"
+    },
+    {
+      "id": "principal-0086",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0086.",
+      "label": "principal",
+      "groupId": "principal-0043"
+    },
+    {
+      "id": "principal-0087",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0087.",
+      "label": "principal",
+      "groupId": "principal-0043"
+    },
+    {
+      "id": "principal-0088",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0088.",
+      "label": "principal",
+      "groupId": "principal-0044"
+    },
+    {
+      "id": "principal-0089",
+      "text": "Pescado al horno con patatas. Variante de prueba 0089.",
+      "label": "principal",
+      "groupId": "principal-0044"
+    },
+    {
+      "id": "principal-0090",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0090.",
+      "label": "principal",
+      "groupId": "principal-0045"
+    },
+    {
+      "id": "principal-0091",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0091.",
+      "label": "principal",
+      "groupId": "principal-0045"
+    },
+    {
+      "id": "principal-0092",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0092.",
+      "label": "principal",
+      "groupId": "principal-0046"
+    },
+    {
+      "id": "principal-0093",
+      "text": "Pescado al horno con patatas. Variante de prueba 0093.",
+      "label": "principal",
+      "groupId": "principal-0046"
+    },
+    {
+      "id": "principal-0094",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0094.",
+      "label": "principal",
+      "groupId": "principal-0047"
+    },
+    {
+      "id": "principal-0095",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0095.",
+      "label": "principal",
+      "groupId": "principal-0047"
+    },
+    {
+      "id": "principal-0096",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0096.",
+      "label": "principal",
+      "groupId": "principal-0048"
+    },
+    {
+      "id": "principal-0097",
+      "text": "Pescado al horno con patatas. Variante de prueba 0097.",
+      "label": "principal",
+      "groupId": "principal-0048"
+    },
+    {
+      "id": "principal-0098",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0098.",
+      "label": "principal",
+      "groupId": "principal-0049"
+    },
+    {
+      "id": "principal-0099",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0099.",
+      "label": "principal",
+      "groupId": "principal-0049"
+    },
+    {
+      "id": "postre-0000",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0000.",
+      "label": "postre",
+      "groupId": "postre-0000"
+    },
+    {
+      "id": "postre-0001",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0001.",
+      "label": "postre",
+      "groupId": "postre-0000"
+    },
+    {
+      "id": "postre-0002",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0002.",
+      "label": "postre",
+      "groupId": "postre-0001"
+    },
+    {
+      "id": "postre-0003",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0003.",
+      "label": "postre",
+      "groupId": "postre-0001"
+    },
+    {
+      "id": "postre-0004",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0004.",
+      "label": "postre",
+      "groupId": "postre-0002"
+    },
+    {
+      "id": "postre-0005",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0005.",
+      "label": "postre",
+      "groupId": "postre-0002"
+    },
+    {
+      "id": "postre-0006",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0006.",
+      "label": "postre",
+      "groupId": "postre-0003"
+    },
+    {
+      "id": "postre-0007",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0007.",
+      "label": "postre",
+      "groupId": "postre-0003"
+    },
+    {
+      "id": "postre-0008",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0008.",
+      "label": "postre",
+      "groupId": "postre-0004"
+    },
+    {
+      "id": "postre-0009",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0009.",
+      "label": "postre",
+      "groupId": "postre-0004"
+    },
+    {
+      "id": "postre-0010",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0010.",
+      "label": "postre",
+      "groupId": "postre-0005"
+    },
+    {
+      "id": "postre-0011",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0011.",
+      "label": "postre",
+      "groupId": "postre-0005"
+    },
+    {
+      "id": "postre-0012",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0012.",
+      "label": "postre",
+      "groupId": "postre-0006"
+    },
+    {
+      "id": "postre-0013",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0013.",
+      "label": "postre",
+      "groupId": "postre-0006"
+    },
+    {
+      "id": "postre-0014",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0014.",
+      "label": "postre",
+      "groupId": "postre-0007"
+    },
+    {
+      "id": "postre-0015",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0015.",
+      "label": "postre",
+      "groupId": "postre-0007"
+    },
+    {
+      "id": "postre-0016",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0016.",
+      "label": "postre",
+      "groupId": "postre-0008"
+    },
+    {
+      "id": "postre-0017",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0017.",
+      "label": "postre",
+      "groupId": "postre-0008"
+    },
+    {
+      "id": "postre-0018",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0018.",
+      "label": "postre",
+      "groupId": "postre-0009"
+    },
+    {
+      "id": "postre-0019",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0019.",
+      "label": "postre",
+      "groupId": "postre-0009"
+    },
+    {
+      "id": "postre-0020",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0020.",
+      "label": "postre",
+      "groupId": "postre-0010"
+    },
+    {
+      "id": "postre-0021",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0021.",
+      "label": "postre",
+      "groupId": "postre-0010"
+    },
+    {
+      "id": "postre-0022",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0022.",
+      "label": "postre",
+      "groupId": "postre-0011"
+    },
+    {
+      "id": "postre-0023",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0023.",
+      "label": "postre",
+      "groupId": "postre-0011"
+    },
+    {
+      "id": "postre-0024",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0024.",
+      "label": "postre",
+      "groupId": "postre-0012"
+    },
+    {
+      "id": "postre-0025",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0025.",
+      "label": "postre",
+      "groupId": "postre-0012"
+    },
+    {
+      "id": "postre-0026",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0026.",
+      "label": "postre",
+      "groupId": "postre-0013"
+    },
+    {
+      "id": "postre-0027",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0027.",
+      "label": "postre",
+      "groupId": "postre-0013"
+    },
+    {
+      "id": "postre-0028",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0028.",
+      "label": "postre",
+      "groupId": "postre-0014"
+    },
+    {
+      "id": "postre-0029",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0029.",
+      "label": "postre",
+      "groupId": "postre-0014"
+    },
+    {
+      "id": "postre-0030",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0030.",
+      "label": "postre",
+      "groupId": "postre-0015"
+    },
+    {
+      "id": "postre-0031",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0031.",
+      "label": "postre",
+      "groupId": "postre-0015"
+    },
+    {
+      "id": "postre-0032",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0032.",
+      "label": "postre",
+      "groupId": "postre-0016"
+    },
+    {
+      "id": "postre-0033",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0033.",
+      "label": "postre",
+      "groupId": "postre-0016"
+    },
+    {
+      "id": "postre-0034",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0034.",
+      "label": "postre",
+      "groupId": "postre-0017"
+    },
+    {
+      "id": "postre-0035",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0035.",
+      "label": "postre",
+      "groupId": "postre-0017"
+    },
+    {
+      "id": "postre-0036",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0036.",
+      "label": "postre",
+      "groupId": "postre-0018"
+    },
+    {
+      "id": "postre-0037",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0037.",
+      "label": "postre",
+      "groupId": "postre-0018"
+    },
+    {
+      "id": "postre-0038",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0038.",
+      "label": "postre",
+      "groupId": "postre-0019"
+    },
+    {
+      "id": "postre-0039",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0039.",
+      "label": "postre",
+      "groupId": "postre-0019"
+    },
+    {
+      "id": "postre-0040",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0040.",
+      "label": "postre",
+      "groupId": "postre-0020"
+    },
+    {
+      "id": "postre-0041",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0041.",
+      "label": "postre",
+      "groupId": "postre-0020"
+    },
+    {
+      "id": "postre-0042",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0042.",
+      "label": "postre",
+      "groupId": "postre-0021"
+    },
+    {
+      "id": "postre-0043",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0043.",
+      "label": "postre",
+      "groupId": "postre-0021"
+    },
+    {
+      "id": "postre-0044",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0044.",
+      "label": "postre",
+      "groupId": "postre-0022"
+    },
+    {
+      "id": "postre-0045",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0045.",
+      "label": "postre",
+      "groupId": "postre-0022"
+    },
+    {
+      "id": "postre-0046",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0046.",
+      "label": "postre",
+      "groupId": "postre-0023"
+    },
+    {
+      "id": "postre-0047",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0047.",
+      "label": "postre",
+      "groupId": "postre-0023"
+    },
+    {
+      "id": "postre-0048",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0048.",
+      "label": "postre",
+      "groupId": "postre-0024"
+    },
+    {
+      "id": "postre-0049",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0049.",
+      "label": "postre",
+      "groupId": "postre-0024"
+    },
+    {
+      "id": "postre-0050",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0050.",
+      "label": "postre",
+      "groupId": "postre-0025"
+    },
+    {
+      "id": "postre-0051",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0051.",
+      "label": "postre",
+      "groupId": "postre-0025"
+    },
+    {
+      "id": "postre-0052",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0052.",
+      "label": "postre",
+      "groupId": "postre-0026"
+    },
+    {
+      "id": "postre-0053",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0053.",
+      "label": "postre",
+      "groupId": "postre-0026"
+    },
+    {
+      "id": "postre-0054",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0054.",
+      "label": "postre",
+      "groupId": "postre-0027"
+    },
+    {
+      "id": "postre-0055",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0055.",
+      "label": "postre",
+      "groupId": "postre-0027"
+    },
+    {
+      "id": "postre-0056",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0056.",
+      "label": "postre",
+      "groupId": "postre-0028"
+    },
+    {
+      "id": "postre-0057",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0057.",
+      "label": "postre",
+      "groupId": "postre-0028"
+    },
+    {
+      "id": "postre-0058",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0058.",
+      "label": "postre",
+      "groupId": "postre-0029"
+    },
+    {
+      "id": "postre-0059",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0059.",
+      "label": "postre",
+      "groupId": "postre-0029"
+    },
+    {
+      "id": "postre-0060",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0060.",
+      "label": "postre",
+      "groupId": "postre-0030"
+    },
+    {
+      "id": "postre-0061",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0061.",
+      "label": "postre",
+      "groupId": "postre-0030"
+    },
+    {
+      "id": "postre-0062",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0062.",
+      "label": "postre",
+      "groupId": "postre-0031"
+    },
+    {
+      "id": "postre-0063",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0063.",
+      "label": "postre",
+      "groupId": "postre-0031"
+    },
+    {
+      "id": "postre-0064",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0064.",
+      "label": "postre",
+      "groupId": "postre-0032"
+    },
+    {
+      "id": "postre-0065",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0065.",
+      "label": "postre",
+      "groupId": "postre-0032"
+    },
+    {
+      "id": "postre-0066",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0066.",
+      "label": "postre",
+      "groupId": "postre-0033"
+    },
+    {
+      "id": "postre-0067",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0067.",
+      "label": "postre",
+      "groupId": "postre-0033"
+    },
+    {
+      "id": "postre-0068",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0068.",
+      "label": "postre",
+      "groupId": "postre-0034"
+    },
+    {
+      "id": "postre-0069",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0069.",
+      "label": "postre",
+      "groupId": "postre-0034"
+    },
+    {
+      "id": "postre-0070",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0070.",
+      "label": "postre",
+      "groupId": "postre-0035"
+    },
+    {
+      "id": "postre-0071",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0071.",
+      "label": "postre",
+      "groupId": "postre-0035"
+    },
+    {
+      "id": "postre-0072",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0072.",
+      "label": "postre",
+      "groupId": "postre-0036"
+    },
+    {
+      "id": "postre-0073",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0073.",
+      "label": "postre",
+      "groupId": "postre-0036"
+    },
+    {
+      "id": "postre-0074",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0074.",
+      "label": "postre",
+      "groupId": "postre-0037"
+    },
+    {
+      "id": "postre-0075",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0075.",
+      "label": "postre",
+      "groupId": "postre-0037"
+    },
+    {
+      "id": "postre-0076",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0076.",
+      "label": "postre",
+      "groupId": "postre-0038"
+    },
+    {
+      "id": "postre-0077",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0077.",
+      "label": "postre",
+      "groupId": "postre-0038"
+    },
+    {
+      "id": "postre-0078",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0078.",
+      "label": "postre",
+      "groupId": "postre-0039"
+    },
+    {
+      "id": "postre-0079",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0079.",
+      "label": "postre",
+      "groupId": "postre-0039"
+    },
+    {
+      "id": "postre-0080",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0080.",
+      "label": "postre",
+      "groupId": "postre-0040"
+    },
+    {
+      "id": "postre-0081",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0081.",
+      "label": "postre",
+      "groupId": "postre-0040"
+    },
+    {
+      "id": "postre-0082",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0082.",
+      "label": "postre",
+      "groupId": "postre-0041"
+    },
+    {
+      "id": "postre-0083",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0083.",
+      "label": "postre",
+      "groupId": "postre-0041"
+    },
+    {
+      "id": "postre-0084",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0084.",
+      "label": "postre",
+      "groupId": "postre-0042"
+    },
+    {
+      "id": "postre-0085",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0085.",
+      "label": "postre",
+      "groupId": "postre-0042"
+    },
+    {
+      "id": "postre-0086",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0086.",
+      "label": "postre",
+      "groupId": "postre-0043"
+    },
+    {
+      "id": "postre-0087",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0087.",
+      "label": "postre",
+      "groupId": "postre-0043"
+    },
+    {
+      "id": "postre-0088",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0088.",
+      "label": "postre",
+      "groupId": "postre-0044"
+    },
+    {
+      "id": "postre-0089",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0089.",
+      "label": "postre",
+      "groupId": "postre-0044"
+    },
+    {
+      "id": "postre-0090",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0090.",
+      "label": "postre",
+      "groupId": "postre-0045"
+    },
+    {
+      "id": "postre-0091",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0091.",
+      "label": "postre",
+      "groupId": "postre-0045"
+    },
+    {
+      "id": "postre-0092",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0092.",
+      "label": "postre",
+      "groupId": "postre-0046"
+    },
+    {
+      "id": "postre-0093",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0093.",
+      "label": "postre",
+      "groupId": "postre-0046"
+    },
+    {
+      "id": "postre-0094",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0094.",
+      "label": "postre",
+      "groupId": "postre-0047"
+    },
+    {
+      "id": "postre-0095",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0095.",
+      "label": "postre",
+      "groupId": "postre-0047"
+    },
+    {
+      "id": "postre-0096",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0096.",
+      "label": "postre",
+      "groupId": "postre-0048"
+    },
+    {
+      "id": "postre-0097",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0097.",
+      "label": "postre",
+      "groupId": "postre-0048"
+    },
+    {
+      "id": "postre-0098",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0098.",
+      "label": "postre",
+      "groupId": "postre-0049"
+    },
+    {
+      "id": "postre-0099",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0099.",
+      "label": "postre",
+      "groupId": "postre-0049"
+    }
+  ],
+  "sourceType": "GROUPED"
+}

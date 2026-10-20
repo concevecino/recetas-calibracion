@@ -1,0 +1,3896 @@
+{
+  "metadata": {
+    "nombre": "recetas_rag_calibracion_es",
+    "version": "1.0.0",
+    "idioma": "es",
+    "descripcion": "Dataset sintético de recetas para pruebas de recuperación semántica, filtros y calibración de relevancia.",
+    "total_recetas": 61,
+    "nota": "Las cantidades son nulas deliberadamente en esta versión. Las etiquetas dietéticas son aproximadas y no sustituyen la verificación de ingredientes, marcas ni contaminación cruzada."
+  },
+  "recetas": [
+    {
+      "id": "receta_0001",
+      "nombre": "Tortilla española",
+      "cocina": "española",
+      "categoria": "principal",
+      "descripcion": "Tortilla jugosa de patata y huevo, con cebolla opcional, ideal para compartir o servir como cena sencilla.",
+      "ingredientes": [
+        {
+          "nombre": "patata",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "huevo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "sal",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Pelar y cortar las patatas en láminas.",
+        "Pochar las patatas y la cebolla en aceite.",
+        "Mezclar con los huevos batidos y cuajar por ambos lados."
+      ],
+      "tiempo_minutos": 35,
+      "raciones": 4,
+      "dietas": [
+        "vegetariana",
+        "sin gluten"
+      ],
+      "alergenos_probables": [
+        "huevo"
+      ],
+      "etiquetas": [
+        "tortilla",
+        "huevo",
+        "patata",
+        "cocina casera"
+      ],
+      "texto_busqueda": "Tortilla española. Tortilla jugosa de patata y huevo, con cebolla opcional, ideal para compartir o servir como cena sencilla. Cocina: española. Categoría: principal. Ingredientes: patata, huevo, cebolla, aceite de oliva, sal. Dietas: vegetariana, sin gluten. Etiquetas: tortilla, huevo, patata, cocina casera.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0002",
+      "nombre": "Gazpacho andaluz",
+      "cocina": "española",
+      "categoria": "sopa",
+      "descripcion": "Sopa fría de tomate y verduras frescas, ligera y refrescante para días calurosos.",
+      "ingredientes": [
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pepino",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pimiento verde",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "vinagre",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "sal",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Lavar y trocear las verduras.",
+        "Triturar con aceite, vinagre y sal.",
+        "Refrigerar y servir frío."
+      ],
+      "tiempo_minutos": 15,
+      "raciones": 4,
+      "dietas": [
+        "vegana",
+        "sin gluten",
+        "sin lactosa"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "frío",
+        "verano",
+        "tomate",
+        "sin cocción"
+      ],
+      "texto_busqueda": "Gazpacho andaluz. Sopa fría de tomate y verduras frescas, ligera y refrescante para días calurosos. Cocina: española. Categoría: sopa. Ingredientes: tomate, pepino, pimiento verde, ajo, aceite de oliva, vinagre, sal. Dietas: vegana, sin gluten, sin lactosa. Etiquetas: frío, verano, tomate, sin cocción.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0003",
+      "nombre": "Salmorejo cordobés",
+      "cocina": "española",
+      "categoria": "sopa",
+      "descripcion": "Crema fría y espesa de tomate y pan, tradicionalmente acompañada de huevo.",
+      "ingredientes": [
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pan",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "sal",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Triturar tomates con pan y ajo.",
+        "Emulsionar con aceite de oliva.",
+        "Enfriar y servir con huevo cocido opcional."
+      ],
+      "tiempo_minutos": 15,
+      "raciones": 4,
+      "dietas": [
+        "vegetariana"
+      ],
+      "alergenos_probables": [
+        "gluten"
+      ],
+      "etiquetas": [
+        "frío",
+        "tomate",
+        "cremosa"
+      ],
+      "texto_busqueda": "Salmorejo cordobés. Crema fría y espesa de tomate y pan, tradicionalmente acompañada de huevo. Cocina: española. Categoría: sopa. Ingredientes: tomate, pan, ajo, aceite de oliva, sal. Dietas: vegetariana. Etiquetas: frío, tomate, cremosa.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0004",
+      "nombre": "Paella de verduras",
+      "cocina": "española",
+      "categoria": "arroz",
+      "descripcion": "Arroz seco con verduras y azafrán, pensado como alternativa vegetal a la paella tradicional.",
+      "ingredientes": [
+        {
+          "nombre": "arroz",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "judías verdes",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pimiento rojo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "alcachofa",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "caldo de verduras",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "azafrán",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Sofreír las verduras.",
+        "Añadir tomate, arroz y azafrán.",
+        "Verter el caldo y cocinar sin remover hasta que el arroz esté tierno."
+      ],
+      "tiempo_minutos": 45,
+      "raciones": 4,
+      "dietas": [
+        "vegana",
+        "sin lactosa"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "arroz",
+        "paella",
+        "verduras",
+        "plato único"
+      ],
+      "texto_busqueda": "Paella de verduras. Arroz seco con verduras y azafrán, pensado como alternativa vegetal a la paella tradicional. Cocina: española. Categoría: arroz. Ingredientes: arroz, judías verdes, pimiento rojo, alcachofa, tomate, ajo, caldo de verduras, azafrán, aceite de oliva. Dietas: vegana, sin lactosa. Etiquetas: arroz, paella, verduras, plato único.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0005",
+      "nombre": "Lentejas estofadas",
+      "cocina": "española",
+      "categoria": "legumbres",
+      "descripcion": "Guiso casero de lentejas con verduras, saciante y rico en fibra y proteína vegetal.",
+      "ingredientes": [
+        {
+          "nombre": "lentejas",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "zanahoria",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "patata",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pimentón",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "laurel",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Picar las verduras.",
+        "Poner todos los ingredientes en una olla con agua.",
+        "Cocer a fuego suave hasta que las lentejas estén tiernas."
+      ],
+      "tiempo_minutos": 50,
+      "raciones": 4,
+      "dietas": [
+        "vegana",
+        "sin gluten",
+        "rica en fibra"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "guiso",
+        "invierno",
+        "proteína vegetal"
+      ],
+      "texto_busqueda": "Lentejas estofadas. Guiso casero de lentejas con verduras, saciante y rico en fibra y proteína vegetal. Cocina: española. Categoría: legumbres. Ingredientes: lentejas, zanahoria, patata, cebolla, ajo, pimentón, laurel, aceite de oliva. Dietas: vegana, sin gluten, rica en fibra. Etiquetas: guiso, invierno, proteína vegetal.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0006",
+      "nombre": "Croquetas de jamón",
+      "cocina": "española",
+      "categoria": "aperitivo",
+      "descripcion": "Croquetas cremosas de bechamel con jamón, empanadas y doradas.",
+      "ingredientes": [
+        {
+          "nombre": "jamón",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "leche",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "harina",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "mantequilla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "huevo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pan rallado",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "nuez moscada",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Preparar una bechamel espesa con jamón.",
+        "Enfriar la masa y formar croquetas.",
+        "Pasar por huevo y pan rallado y freír."
+      ],
+      "tiempo_minutos": 60,
+      "raciones": 6,
+      "dietas": [
+        "contiene gluten",
+        "contiene lácteos"
+      ],
+      "alergenos_probables": [
+        "gluten",
+        "lácteos",
+        "huevo"
+      ],
+      "etiquetas": [
+        "tapa",
+        "frito",
+        "bechamel",
+        "jamón"
+      ],
+      "texto_busqueda": "Croquetas de jamón. Croquetas cremosas de bechamel con jamón, empanadas y doradas. Cocina: española. Categoría: aperitivo. Ingredientes: jamón, leche, harina, mantequilla, huevo, pan rallado, nuez moscada. Dietas: contiene gluten, contiene lácteos. Etiquetas: tapa, frito, bechamel, jamón.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0007",
+      "nombre": "Pollo al limón",
+      "cocina": "mediterránea",
+      "categoria": "principal",
+      "descripcion": "Pollo tierno con salsa cítrica de limón, ajo y hierbas, sin nata.",
+      "ingredientes": [
+        {
+          "nombre": "pollo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "limón",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "caldo de pollo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pimienta",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "romero",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Dorar el pollo.",
+        "Añadir ajo, zumo de limón, caldo y romero.",
+        "Cocinar hasta que el pollo esté bien hecho y la salsa reduzca."
+      ],
+      "tiempo_minutos": 35,
+      "raciones": 4,
+      "dietas": [
+        "sin gluten",
+        "sin lactosa"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "pollo",
+        "cítrico",
+        "cena"
+      ],
+      "texto_busqueda": "Pollo al limón. Pollo tierno con salsa cítrica de limón, ajo y hierbas, sin nata. Cocina: mediterránea. Categoría: principal. Ingredientes: pollo, limón, ajo, caldo de pollo, aceite de oliva, pimienta, romero. Dietas: sin gluten, sin lactosa. Etiquetas: pollo, cítrico, cena.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0008",
+      "nombre": "Pollo al curry con arroz",
+      "cocina": "india",
+      "categoria": "principal",
+      "descripcion": "Pollo especiado en salsa de curry y coco, servido con arroz.",
+      "ingredientes": [
+        {
+          "nombre": "pollo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "jengibre",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "curry",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "leche de coco",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "arroz",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Cocinar el arroz por separado.",
+        "Sofreír cebolla, ajo y jengibre.",
+        "Añadir pollo, curry, tomate y leche de coco y cocinar hasta que esté hecho."
+      ],
+      "tiempo_minutos": 40,
+      "raciones": 4,
+      "dietas": [
+        "sin gluten",
+        "sin lactosa"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "curry",
+        "especiado",
+        "arroz",
+        "cremoso"
+      ],
+      "texto_busqueda": "Pollo al curry con arroz. Pollo especiado en salsa de curry y coco, servido con arroz. Cocina: india. Categoría: principal. Ingredientes: pollo, cebolla, ajo, jengibre, curry, leche de coco, tomate, arroz. Dietas: sin gluten, sin lactosa. Etiquetas: curry, especiado, arroz, cremoso.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0009",
+      "nombre": "Dahl de lentejas rojas",
+      "cocina": "india",
+      "categoria": "legumbres",
+      "descripcion": "Guiso especiado y cremoso de lentejas rojas, adecuado para una comida vegetal rica en proteína.",
+      "ingredientes": [
+        {
+          "nombre": "lentejas rojas",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "jengibre",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "leche de coco",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cúrcuma",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "comino",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "caldo vegetal",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Sofreír cebolla, ajo y jengibre.",
+        "Añadir especias, tomate y lentejas.",
+        "Incorporar caldo y leche de coco y cocer hasta que quede cremoso."
+      ],
+      "tiempo_minutos": 30,
+      "raciones": 4,
+      "dietas": [
+        "vegana",
+        "sin gluten",
+        "rica en fibra"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "india",
+        "curry",
+        "proteína vegetal",
+        "cremoso"
+      ],
+      "texto_busqueda": "Dahl de lentejas rojas. Guiso especiado y cremoso de lentejas rojas, adecuado para una comida vegetal rica en proteína. Cocina: india. Categoría: legumbres. Ingredientes: lentejas rojas, cebolla, ajo, jengibre, tomate, leche de coco, cúrcuma, comino, caldo vegetal. Dietas: vegana, sin gluten, rica en fibra. Etiquetas: india, curry, proteína vegetal, cremoso.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0010",
+      "nombre": "Hummus clásico",
+      "cocina": "mediterránea",
+      "categoria": "aperitivo",
+      "descripcion": "Crema untable de garbanzos y tahini, útil como aperitivo o acompañamiento.",
+      "ingredientes": [
+        {
+          "nombre": "garbanzos",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tahini",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "limón",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "comino",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Escurrir los garbanzos cocidos.",
+        "Triturar con tahini, limón, ajo y comino.",
+        "Ajustar la textura con agua y terminar con aceite."
+      ],
+      "tiempo_minutos": 10,
+      "raciones": 4,
+      "dietas": [
+        "vegana",
+        "sin gluten",
+        "sin lactosa"
+      ],
+      "alergenos_probables": [
+        "sésamo"
+      ],
+      "etiquetas": [
+        "dip",
+        "garbanzo",
+        "untable",
+        "rápido"
+      ],
+      "texto_busqueda": "Hummus clásico. Crema untable de garbanzos y tahini, útil como aperitivo o acompañamiento. Cocina: mediterránea. Categoría: aperitivo. Ingredientes: garbanzos, tahini, limón, ajo, comino, aceite de oliva. Dietas: vegana, sin gluten, sin lactosa. Etiquetas: dip, garbanzo, untable, rápido.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0011",
+      "nombre": "Falafel al horno",
+      "cocina": "mediterránea",
+      "categoria": "principal",
+      "descripcion": "Bocaditos de garbanzo con hierbas y especias, horneados para reducir el aceite.",
+      "ingredientes": [
+        {
+          "nombre": "garbanzos",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "perejil",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cilantro",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "comino",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "harina de garbanzo",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Triturar garbanzos remojados con hierbas y especias.",
+        "Formar pequeñas bolas o discos.",
+        "Hornear hasta dorar, volteando a mitad de cocción."
+      ],
+      "tiempo_minutos": 35,
+      "raciones": 4,
+      "dietas": [
+        "vegana",
+        "sin lácteos"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "garbanzo",
+        "proteína vegetal",
+        "horno",
+        "oriente medio"
+      ],
+      "texto_busqueda": "Falafel al horno. Bocaditos de garbanzo con hierbas y especias, horneados para reducir el aceite. Cocina: mediterránea. Categoría: principal. Ingredientes: garbanzos, perejil, cilantro, cebolla, ajo, comino, harina de garbanzo. Dietas: vegana, sin lácteos. Etiquetas: garbanzo, proteína vegetal, horno, oriente medio.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0012",
+      "nombre": "Ensalada griega",
+      "cocina": "griega",
+      "categoria": "ensalada",
+      "descripcion": "Ensalada fresca de tomate, pepino, aceitunas y feta con aliño mediterráneo.",
+      "ingredientes": [
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pepino",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceitunas",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "queso feta",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla roja",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "orégano",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Cortar las verduras y el queso.",
+        "Mezclar con aceitunas y orégano.",
+        "Aliñar con aceite de oliva."
+      ],
+      "tiempo_minutos": 12,
+      "raciones": 2,
+      "dietas": [
+        "vegetariana",
+        "sin gluten"
+      ],
+      "alergenos_probables": [
+        "lácteos"
+      ],
+      "etiquetas": [
+        "fresca",
+        "sin cocción",
+        "verano",
+        "ensalada"
+      ],
+      "texto_busqueda": "Ensalada griega. Ensalada fresca de tomate, pepino, aceitunas y feta con aliño mediterráneo. Cocina: griega. Categoría: ensalada. Ingredientes: tomate, pepino, aceitunas, queso feta, cebolla roja, orégano, aceite de oliva. Dietas: vegetariana, sin gluten. Etiquetas: fresca, sin cocción, verano, ensalada.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0013",
+      "nombre": "Ensalada de quinoa y garbanzos",
+      "cocina": "moderna",
+      "categoria": "ensalada",
+      "descripcion": "Ensalada completa de quinoa y garbanzos con verduras y limón, fácil de preparar con antelación.",
+      "ingredientes": [
+        {
+          "nombre": "quinoa",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "garbanzos",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pepino",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "perejil",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "limón",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Lavar y cocer la quinoa.",
+        "Enjuagar los garbanzos y trocear las verduras.",
+        "Mezclar y aliñar con limón y aceite."
+      ],
+      "tiempo_minutos": 25,
+      "raciones": 3,
+      "dietas": [
+        "vegana",
+        "sin gluten",
+        "rica en fibra"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "ensalada",
+        "proteína vegetal",
+        "comida fría",
+        "meal prep"
+      ],
+      "texto_busqueda": "Ensalada de quinoa y garbanzos. Ensalada completa de quinoa y garbanzos con verduras y limón, fácil de preparar con antelación. Cocina: moderna. Categoría: ensalada. Ingredientes: quinoa, garbanzos, pepino, tomate, perejil, limón, aceite de oliva. Dietas: vegana, sin gluten, rica en fibra. Etiquetas: ensalada, proteína vegetal, comida fría, meal prep.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0014",
+      "nombre": "Salmón al horno",
+      "cocina": "nórdica",
+      "categoria": "pescado",
+      "descripcion": "Filete de salmón al horno con limón y eneldo, una cena sencilla de pescado.",
+      "ingredientes": [
+        {
+          "nombre": "salmón",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "limón",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "eneldo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pimienta",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "sal",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Calentar el horno.",
+        "Colocar el salmón con limón, eneldo y aceite.",
+        "Hornear hasta que alcance una cocción segura."
+      ],
+      "tiempo_minutos": 20,
+      "raciones": 2,
+      "dietas": [
+        "sin gluten",
+        "sin lactosa"
+      ],
+      "alergenos_probables": [
+        "pescado"
+      ],
+      "etiquetas": [
+        "pescado",
+        "omega 3",
+        "horno",
+        "rápido"
+      ],
+      "texto_busqueda": "Salmón al horno. Filete de salmón al horno con limón y eneldo, una cena sencilla de pescado. Cocina: nórdica. Categoría: pescado. Ingredientes: salmón, limón, eneldo, aceite de oliva, pimienta, sal. Dietas: sin gluten, sin lactosa. Etiquetas: pescado, omega 3, horno, rápido.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0015",
+      "nombre": "Bacalao con tomate",
+      "cocina": "portuguesa",
+      "categoria": "pescado",
+      "descripcion": "Bacalao suave cocinado en salsa de tomate, cebolla y ajo.",
+      "ingredientes": [
+        {
+          "nombre": "bacalao",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "laurel",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Pochar la cebolla y el ajo.",
+        "Añadir tomate y laurel y cocinar la salsa.",
+        "Incorporar el bacalao y cocinar suavemente hasta que esté hecho."
+      ],
+      "tiempo_minutos": 30,
+      "raciones": 4,
+      "dietas": [
+        "sin gluten",
+        "sin lactosa"
+      ],
+      "alergenos_probables": [
+        "pescado"
+      ],
+      "etiquetas": [
+        "pescado",
+        "tomate",
+        "guiso"
+      ],
+      "texto_busqueda": "Bacalao con tomate. Bacalao suave cocinado en salsa de tomate, cebolla y ajo. Cocina: portuguesa. Categoría: pescado. Ingredientes: bacalao, tomate, cebolla, ajo, aceite de oliva, laurel. Dietas: sin gluten, sin lactosa. Etiquetas: pescado, tomate, guiso.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0016",
+      "nombre": "Pasta al pesto",
+      "cocina": "italiana",
+      "categoria": "pasta",
+      "descripcion": "Pasta italiana con salsa verde de albahaca, frutos secos, queso y aceite de oliva.",
+      "ingredientes": [
+        {
+          "nombre": "pasta",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "albahaca",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "piñones",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "parmesano",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Cocer la pasta y reservar un poco de agua.",
+        "Triturar albahaca, piñones, ajo, parmesano y aceite.",
+        "Mezclar la pasta con el pesto y ajustar con agua de cocción."
+      ],
+      "tiempo_minutos": 20,
+      "raciones": 2,
+      "dietas": [
+        "vegetariana"
+      ],
+      "alergenos_probables": [
+        "gluten",
+        "lácteos"
+      ],
+      "etiquetas": [
+        "pasta",
+        "albahaca",
+        "rápido",
+        "italiana"
+      ],
+      "texto_busqueda": "Pasta al pesto. Pasta italiana con salsa verde de albahaca, frutos secos, queso y aceite de oliva. Cocina: italiana. Categoría: pasta. Ingredientes: pasta, albahaca, piñones, ajo, parmesano, aceite de oliva. Dietas: vegetariana. Etiquetas: pasta, albahaca, rápido, italiana.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0017",
+      "nombre": "Pasta puttanesca",
+      "cocina": "italiana",
+      "categoria": "pasta",
+      "descripcion": "Pasta de sabor intenso con tomate, aceitunas y alcaparras, sin ingredientes animales si la pasta lo permite.",
+      "ingredientes": [
+        {
+          "nombre": "pasta",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceitunas",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "alcaparras",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "guindilla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Cocer la pasta.",
+        "Sofreír ajo y guindilla y añadir tomate, aceitunas y alcaparras.",
+        "Mezclar con la pasta cocida."
+      ],
+      "tiempo_minutos": 25,
+      "raciones": 2,
+      "dietas": [
+        "vegana",
+        "sin lácteos"
+      ],
+      "alergenos_probables": [
+        "gluten"
+      ],
+      "etiquetas": [
+        "pasta",
+        "tomate",
+        "salado",
+        "italiana"
+      ],
+      "texto_busqueda": "Pasta puttanesca. Pasta de sabor intenso con tomate, aceitunas y alcaparras, sin ingredientes animales si la pasta lo permite. Cocina: italiana. Categoría: pasta. Ingredientes: pasta, tomate, aceitunas, alcaparras, ajo, guindilla, aceite de oliva. Dietas: vegana, sin lácteos. Etiquetas: pasta, tomate, salado, italiana.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0018",
+      "nombre": "Risotto de setas",
+      "cocina": "italiana",
+      "categoria": "arroz",
+      "descripcion": "Arroz italiano cremoso con setas y queso, ideal para una comida reconfortante.",
+      "ingredientes": [
+        {
+          "nombre": "arroz arborio",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "setas",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "caldo vegetal",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "vino blanco",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "parmesano",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "mantequilla",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Sofreír cebolla y setas.",
+        "Añadir arroz y vino; incorporar caldo caliente poco a poco.",
+        "Terminar con mantequilla y parmesano."
+      ],
+      "tiempo_minutos": 40,
+      "raciones": 4,
+      "dietas": [
+        "vegetariana"
+      ],
+      "alergenos_probables": [
+        "lácteos"
+      ],
+      "etiquetas": [
+        "arroz",
+        "setas",
+        "cremoso",
+        "confort"
+      ],
+      "texto_busqueda": "Risotto de setas. Arroz italiano cremoso con setas y queso, ideal para una comida reconfortante. Cocina: italiana. Categoría: arroz. Ingredientes: arroz arborio, setas, cebolla, caldo vegetal, vino blanco, parmesano, mantequilla. Dietas: vegetariana. Etiquetas: arroz, setas, cremoso, confort.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0019",
+      "nombre": "Pizza margarita",
+      "cocina": "italiana",
+      "categoria": "pizza",
+      "descripcion": "Pizza clásica con tomate, mozzarella y albahaca sobre masa fermentada.",
+      "ingredientes": [
+        {
+          "nombre": "harina",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "levadura",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "agua",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "mozzarella",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "albahaca",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Preparar y fermentar la masa.",
+        "Cubrir con tomate y mozzarella.",
+        "Hornear a temperatura alta y añadir albahaca al final."
+      ],
+      "tiempo_minutos": 90,
+      "raciones": 2,
+      "dietas": [
+        "vegetariana"
+      ],
+      "alergenos_probables": [
+        "gluten",
+        "lácteos"
+      ],
+      "etiquetas": [
+        "pizza",
+        "horno",
+        "tomate",
+        "queso"
+      ],
+      "texto_busqueda": "Pizza margarita. Pizza clásica con tomate, mozzarella y albahaca sobre masa fermentada. Cocina: italiana. Categoría: pizza. Ingredientes: harina, levadura, agua, tomate, mozzarella, albahaca, aceite de oliva. Dietas: vegetariana. Etiquetas: pizza, horno, tomate, queso.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0020",
+      "nombre": "Ratatouille",
+      "cocina": "francesa",
+      "categoria": "verduras",
+      "descripcion": "Guiso provenzal de verduras de verano, colorido y completamente vegetal.",
+      "ingredientes": [
+        {
+          "nombre": "berenjena",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "calabacín",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pimiento",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomillo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Cortar las verduras en rodajas o dados.",
+        "Sofreír la cebolla y el ajo y añadir el resto de verduras.",
+        "Cocinar a fuego suave hasta que estén tiernas."
+      ],
+      "tiempo_minutos": 45,
+      "raciones": 4,
+      "dietas": [
+        "vegana",
+        "sin gluten",
+        "sin lactosa"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "verduras",
+        "guiso",
+        "provenzal",
+        "sin carne"
+      ],
+      "texto_busqueda": "Ratatouille. Guiso provenzal de verduras de verano, colorido y completamente vegetal. Cocina: francesa. Categoría: verduras. Ingredientes: berenjena, calabacín, tomate, pimiento, cebolla, ajo, tomillo, aceite de oliva. Dietas: vegana, sin gluten, sin lactosa. Etiquetas: verduras, guiso, provenzal, sin carne.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0021",
+      "nombre": "Sopa de calabaza",
+      "cocina": "casera",
+      "categoria": "sopa",
+      "descripcion": "Crema suave de calabaza y zanahoria, cálida y sencilla para días fríos.",
+      "ingredientes": [
+        {
+          "nombre": "calabaza",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "zanahoria",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "caldo vegetal",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pimienta",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Trocear las verduras.",
+        "Cocer en caldo hasta que estén blandas.",
+        "Triturar hasta obtener una crema lisa."
+      ],
+      "tiempo_minutos": 30,
+      "raciones": 4,
+      "dietas": [
+        "vegana",
+        "sin gluten",
+        "sin lactosa"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "sopa",
+        "crema",
+        "otoño",
+        "confort"
+      ],
+      "texto_busqueda": "Sopa de calabaza. Crema suave de calabaza y zanahoria, cálida y sencilla para días fríos. Cocina: casera. Categoría: sopa. Ingredientes: calabaza, cebolla, zanahoria, caldo vegetal, aceite de oliva, pimienta. Dietas: vegana, sin gluten, sin lactosa. Etiquetas: sopa, crema, otoño, confort.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0022",
+      "nombre": "Tacos de frijoles negros",
+      "cocina": "mexicana",
+      "categoria": "principal",
+      "descripcion": "Tacos vegetales de frijoles negros con aguacate, tomate y lima.",
+      "ingredientes": [
+        {
+          "nombre": "tortillas de maíz",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "frijoles negros",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aguacate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla roja",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "lima",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "comino",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Calentar los frijoles con comino.",
+        "Picar tomate, cebolla y aguacate.",
+        "Rellenar las tortillas y añadir lima."
+      ],
+      "tiempo_minutos": 20,
+      "raciones": 3,
+      "dietas": [
+        "vegana",
+        "sin lácteos"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "mexicana",
+        "tacos",
+        "legumbres",
+        "rápido"
+      ],
+      "texto_busqueda": "Tacos de frijoles negros. Tacos vegetales de frijoles negros con aguacate, tomate y lima. Cocina: mexicana. Categoría: principal. Ingredientes: tortillas de maíz, frijoles negros, aguacate, tomate, cebolla roja, lima, comino. Dietas: vegana, sin lácteos. Etiquetas: mexicana, tacos, legumbres, rápido.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0023",
+      "nombre": "Chili sin carne",
+      "cocina": "tex-mex",
+      "categoria": "legumbres",
+      "descripcion": "Chili vegetal de varias legumbres, tomate y especias, sustancioso y apto para preparar en lote.",
+      "ingredientes": [
+        {
+          "nombre": "alubias rojas",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "frijoles negros",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pimiento",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "maíz",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "comino",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pimentón",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Sofreír cebolla y pimiento.",
+        "Añadir tomate, legumbres, maíz y especias.",
+        "Cocinar a fuego lento para integrar los sabores."
+      ],
+      "tiempo_minutos": 35,
+      "raciones": 4,
+      "dietas": [
+        "vegana",
+        "sin gluten",
+        "rica en fibra"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "guiso",
+        "legumbres",
+        "picante opcional",
+        "proteína vegetal"
+      ],
+      "texto_busqueda": "Chili sin carne. Chili vegetal de varias legumbres, tomate y especias, sustancioso y apto para preparar en lote. Cocina: tex-mex. Categoría: legumbres. Ingredientes: alubias rojas, frijoles negros, tomate, pimiento, cebolla, maíz, comino, pimentón. Dietas: vegana, sin gluten, rica en fibra. Etiquetas: guiso, legumbres, picante opcional, proteína vegetal.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0024",
+      "nombre": "Burrito de pollo",
+      "cocina": "mexicana",
+      "categoria": "principal",
+      "descripcion": "Burrito relleno de pollo, arroz, frijoles y verduras, fácil de llevar.",
+      "ingredientes": [
+        {
+          "nombre": "tortilla de trigo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pollo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "arroz",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "frijoles",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "maíz",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aguacate",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Cocinar el pollo con especias.",
+        "Preparar arroz y calentar las legumbres.",
+        "Rellenar la tortilla, doblar y dorar ligeramente."
+      ],
+      "tiempo_minutos": 30,
+      "raciones": 2,
+      "dietas": [
+        "contiene gluten"
+      ],
+      "alergenos_probables": [
+        "gluten"
+      ],
+      "etiquetas": [
+        "mexicana",
+        "pollo",
+        "portátil",
+        "comida completa"
+      ],
+      "texto_busqueda": "Burrito de pollo. Burrito relleno de pollo, arroz, frijoles y verduras, fácil de llevar. Cocina: mexicana. Categoría: principal. Ingredientes: tortilla de trigo, pollo, arroz, frijoles, maíz, tomate, aguacate. Dietas: contiene gluten. Etiquetas: mexicana, pollo, portátil, comida completa.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0025",
+      "nombre": "Shakshuka",
+      "cocina": "norteafricana",
+      "categoria": "huevos",
+      "descripcion": "Huevos cocinados en una salsa especiada de tomate y pimiento.",
+      "ingredientes": [
+        {
+          "nombre": "huevo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pimiento rojo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "comino",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pimentón",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Sofreír cebolla y pimiento.",
+        "Añadir tomate y especias y reducir la salsa.",
+        "Hacer huecos, añadir los huevos y cocinar tapado hasta cuajar."
+      ],
+      "tiempo_minutos": 25,
+      "raciones": 2,
+      "dietas": [
+        "vegetariana",
+        "sin gluten"
+      ],
+      "alergenos_probables": [
+        "huevo"
+      ],
+      "etiquetas": [
+        "huevos",
+        "tomate",
+        "desayuno salado",
+        "una sartén"
+      ],
+      "texto_busqueda": "Shakshuka. Huevos cocinados en una salsa especiada de tomate y pimiento. Cocina: norteafricana. Categoría: huevos. Ingredientes: huevo, tomate, pimiento rojo, cebolla, ajo, comino, pimentón. Dietas: vegetariana, sin gluten. Etiquetas: huevos, tomate, desayuno salado, una sartén.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0026",
+      "nombre": "Avena nocturna con frutos rojos",
+      "cocina": "moderna",
+      "categoria": "desayuno",
+      "descripcion": "Desayuno frío de avena hidratada durante la noche con fruta y semillas.",
+      "ingredientes": [
+        {
+          "nombre": "avena",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "leche o bebida vegetal",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "yogur",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "frutos rojos",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "semillas de chía",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Mezclar avena, leche y chía.",
+        "Refrigerar durante la noche.",
+        "Añadir yogur y frutos rojos antes de servir."
+      ],
+      "tiempo_minutos": 10,
+      "raciones": 1,
+      "dietas": [
+        "vegetariana",
+        "opción vegana"
+      ],
+      "alergenos_probables": [
+        "lácteos"
+      ],
+      "etiquetas": [
+        "desayuno",
+        "sin cocción",
+        "preparación anticipada"
+      ],
+      "texto_busqueda": "Avena nocturna con frutos rojos. Desayuno frío de avena hidratada durante la noche con fruta y semillas. Cocina: moderna. Categoría: desayuno. Ingredientes: avena, leche o bebida vegetal, yogur, frutos rojos, semillas de chía. Dietas: vegetariana, opción vegana. Etiquetas: desayuno, sin cocción, preparación anticipada.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0027",
+      "nombre": "Tortitas de plátano",
+      "cocina": "casera",
+      "categoria": "desayuno",
+      "descripcion": "Tortitas sencillas de plátano, huevo y avena, sin necesidad de azúcar añadido.",
+      "ingredientes": [
+        {
+          "nombre": "plátano",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "huevo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "avena",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "canela",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Aplastar el plátano y mezclar con huevo y avena.",
+        "Añadir canela.",
+        "Cocinar pequeñas tortitas en una sartén ligeramente engrasada."
+      ],
+      "tiempo_minutos": 15,
+      "raciones": 2,
+      "dietas": [
+        "sin gluten si la avena está certificada"
+      ],
+      "alergenos_probables": [
+        "huevo"
+      ],
+      "etiquetas": [
+        "desayuno",
+        "plátano",
+        "dulce",
+        "rápido"
+      ],
+      "texto_busqueda": "Tortitas de plátano. Tortitas sencillas de plátano, huevo y avena, sin necesidad de azúcar añadido. Cocina: casera. Categoría: desayuno. Ingredientes: plátano, huevo, avena, canela, aceite. Dietas: sin gluten si la avena está certificada. Etiquetas: desayuno, plátano, dulce, rápido.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0028",
+      "nombre": "Yogur con granola y manzana",
+      "cocina": "casera",
+      "categoria": "desayuno",
+      "descripcion": "Cuenco rápido de yogur, manzana, avena y nueces para el desayuno.",
+      "ingredientes": [
+        {
+          "nombre": "yogur",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "avena",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "nueces",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "manzana",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "canela",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "miel opcional",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Trocear la manzana.",
+        "Servir el yogur en un cuenco.",
+        "Añadir avena tostada o granola, nueces y canela."
+      ],
+      "tiempo_minutos": 8,
+      "raciones": 1,
+      "dietas": [
+        "vegetariana"
+      ],
+      "alergenos_probables": [
+        "lácteos"
+      ],
+      "etiquetas": [
+        "desayuno",
+        "sin cocción",
+        "fruta",
+        "crujiente"
+      ],
+      "texto_busqueda": "Yogur con granola y manzana. Cuenco rápido de yogur, manzana, avena y nueces para el desayuno. Cocina: casera. Categoría: desayuno. Ingredientes: yogur, avena, nueces, manzana, canela, miel opcional. Dietas: vegetariana. Etiquetas: desayuno, sin cocción, fruta, crujiente.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0029",
+      "nombre": "Brownies de chocolate",
+      "cocina": "repostería",
+      "categoria": "postre",
+      "descripcion": "Brownies densos de chocolate con interior húmedo y sabor intenso a cacao.",
+      "ingredientes": [
+        {
+          "nombre": "chocolate negro",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "mantequilla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "azúcar",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "huevo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "harina",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cacao",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Fundir chocolate y mantequilla.",
+        "Batir con azúcar y huevos y añadir harina y cacao.",
+        "Hornear hasta que el centro quede ligeramente húmedo."
+      ],
+      "tiempo_minutos": 35,
+      "raciones": 8,
+      "dietas": [
+        "vegetariana",
+        "contiene gluten",
+        "contiene lácteos"
+      ],
+      "alergenos_probables": [
+        "gluten",
+        "lácteos",
+        "huevo"
+      ],
+      "etiquetas": [
+        "chocolate",
+        "horno",
+        "postre",
+        "dulce"
+      ],
+      "texto_busqueda": "Brownies de chocolate. Brownies densos de chocolate con interior húmedo y sabor intenso a cacao. Cocina: repostería. Categoría: postre. Ingredientes: chocolate negro, mantequilla, azúcar, huevo, harina, cacao. Dietas: vegetariana, contiene gluten, contiene lácteos. Etiquetas: chocolate, horno, postre, dulce.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0030",
+      "nombre": "Arroz con leche",
+      "cocina": "española",
+      "categoria": "postre",
+      "descripcion": "Postre tradicional de arroz cocido lentamente en leche aromatizada con canela y limón.",
+      "ingredientes": [
+        {
+          "nombre": "arroz",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "leche",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "azúcar",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "canela",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "piel de limón",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Calentar la leche con canela y limón.",
+        "Añadir el arroz y cocer lentamente, removiendo.",
+        "Endulzar y dejar enfriar o servir templado."
+      ],
+      "tiempo_minutos": 45,
+      "raciones": 6,
+      "dietas": [
+        "vegetariana",
+        "sin gluten"
+      ],
+      "alergenos_probables": [
+        "lácteos"
+      ],
+      "etiquetas": [
+        "postre",
+        "arroz",
+        "cremoso",
+        "tradicional"
+      ],
+      "texto_busqueda": "Arroz con leche. Postre tradicional de arroz cocido lentamente en leche aromatizada con canela y limón. Cocina: española. Categoría: postre. Ingredientes: arroz, leche, azúcar, canela, piel de limón. Dietas: vegetariana, sin gluten. Etiquetas: postre, arroz, cremoso, tradicional.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0031",
+      "nombre": "Compota de manzana",
+      "cocina": "casera",
+      "categoria": "postre",
+      "descripcion": "Compota suave de manzana cocida con canela, adaptable como postre o acompañamiento.",
+      "ingredientes": [
+        {
+          "nombre": "manzana",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "agua",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "canela",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "limón",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Pelar y cortar las manzanas.",
+        "Cocer con un poco de agua, canela y limón.",
+        "Aplastar o triturar según la textura deseada."
+      ],
+      "tiempo_minutos": 20,
+      "raciones": 4,
+      "dietas": [
+        "vegana",
+        "sin gluten",
+        "sin lactosa"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "fruta",
+        "postre",
+        "sin azúcar añadido opcional"
+      ],
+      "texto_busqueda": "Compota de manzana. Compota suave de manzana cocida con canela, adaptable como postre o acompañamiento. Cocina: casera. Categoría: postre. Ingredientes: manzana, agua, canela, limón. Dietas: vegana, sin gluten, sin lactosa. Etiquetas: fruta, postre, sin azúcar añadido opcional.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0032",
+      "nombre": "Cuscús de verduras",
+      "cocina": "magrebí",
+      "categoria": "cereal",
+      "descripcion": "Cuscús especiado con verduras tiernas y garbanzos, inspirado en la cocina del Magreb.",
+      "ingredientes": [
+        {
+          "nombre": "cuscús",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "garbanzos",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "zanahoria",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "calabacín",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "calabaza",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "comino",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "caldo vegetal",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Cocer las verduras con especias y garbanzos.",
+        "Hidratar el cuscús con caldo caliente.",
+        "Servir las verduras y su caldo sobre el cuscús."
+      ],
+      "tiempo_minutos": 35,
+      "raciones": 4,
+      "dietas": [
+        "vegana",
+        "contiene gluten"
+      ],
+      "alergenos_probables": [
+        "gluten"
+      ],
+      "etiquetas": [
+        "cereal",
+        "verduras",
+        "garbanzo",
+        "plato único"
+      ],
+      "texto_busqueda": "Cuscús de verduras. Cuscús especiado con verduras tiernas y garbanzos, inspirado en la cocina del Magreb. Cocina: magrebí. Categoría: cereal. Ingredientes: cuscús, garbanzos, zanahoria, calabacín, calabaza, cebolla, comino, caldo vegetal. Dietas: vegana, contiene gluten. Etiquetas: cereal, verduras, garbanzo, plato único.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0033",
+      "nombre": "Tofu salteado con verduras",
+      "cocina": "asiática",
+      "categoria": "principal",
+      "descripcion": "Salteado de tofu crujiente y verduras con salsa de soja y jengibre.",
+      "ingredientes": [
+        {
+          "nombre": "tofu",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "brócoli",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "zanahoria",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pimiento",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "salsa de soja",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "jengibre",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de sésamo",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Secar y dorar el tofu en dados.",
+        "Saltear las verduras a fuego vivo.",
+        "Añadir jengibre, salsa de soja y tofu; mezclar."
+      ],
+      "tiempo_minutos": 25,
+      "raciones": 2,
+      "dietas": [
+        "vegana",
+        "sin lácteos"
+      ],
+      "alergenos_probables": [
+        "soja",
+        "sésamo"
+      ],
+      "etiquetas": [
+        "tofu",
+        "salteado",
+        "proteína vegetal",
+        "rápido"
+      ],
+      "texto_busqueda": "Tofu salteado con verduras. Salteado de tofu crujiente y verduras con salsa de soja y jengibre. Cocina: asiática. Categoría: principal. Ingredientes: tofu, brócoli, zanahoria, pimiento, salsa de soja, jengibre, aceite de sésamo. Dietas: vegana, sin lácteos. Etiquetas: tofu, salteado, proteína vegetal, rápido.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0034",
+      "nombre": "Sopa de miso con tofu",
+      "cocina": "japonesa",
+      "categoria": "sopa",
+      "descripcion": "Sopa japonesa ligera con miso, tofu y algas; revisar el caldo para una versión vegana.",
+      "ingredientes": [
+        {
+          "nombre": "pasta de miso",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tofu",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "alga wakame",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolleta",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "agua o caldo dashi",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Calentar el caldo sin hervir intensamente.",
+        "Añadir tofu y wakame.",
+        "Disolver el miso al final y terminar con cebolleta."
+      ],
+      "tiempo_minutos": 15,
+      "raciones": 2,
+      "dietas": [
+        "vegana si el caldo no contiene pescado"
+      ],
+      "alergenos_probables": [
+        "soja"
+      ],
+      "etiquetas": [
+        "japonesa",
+        "sopa",
+        "tofu",
+        "ligera"
+      ],
+      "texto_busqueda": "Sopa de miso con tofu. Sopa japonesa ligera con miso, tofu y algas; revisar el caldo para una versión vegana. Cocina: japonesa. Categoría: sopa. Ingredientes: pasta de miso, tofu, alga wakame, cebolleta, agua o caldo dashi. Dietas: vegana si el caldo no contiene pescado. Etiquetas: japonesa, sopa, tofu, ligera.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0035",
+      "nombre": "Arroz frito con verduras",
+      "cocina": "asiática",
+      "categoria": "arroz",
+      "descripcion": "Arroz salteado con verduras, ideal para aprovechar arroz cocido del día anterior.",
+      "ingredientes": [
+        {
+          "nombre": "arroz cocido",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "huevo opcional",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "zanahoria",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "guisantes",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolleta",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "salsa de soja",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Usar arroz cocido y frío.",
+        "Saltear las verduras en una sartén caliente.",
+        "Añadir arroz y salsa de soja; incorporar huevo si se desea."
+      ],
+      "tiempo_minutos": 15,
+      "raciones": 2,
+      "dietas": [
+        "vegetariana si no se añade carne"
+      ],
+      "alergenos_probables": [
+        "soja"
+      ],
+      "etiquetas": [
+        "arroz",
+        "aprovechamiento",
+        "rápido",
+        "salteado"
+      ],
+      "texto_busqueda": "Arroz frito con verduras. Arroz salteado con verduras, ideal para aprovechar arroz cocido del día anterior. Cocina: asiática. Categoría: arroz. Ingredientes: arroz cocido, huevo opcional, zanahoria, guisantes, cebolleta, salsa de soja, aceite. Dietas: vegetariana si no se añade carne. Etiquetas: arroz, aprovechamiento, rápido, salteado.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0036",
+      "nombre": "Pho vegetal",
+      "cocina": "vietnamita",
+      "categoria": "sopa",
+      "descripcion": "Sopa aromática de fideos de arroz con caldo especiado, setas y brotes.",
+      "ingredientes": [
+        {
+          "nombre": "fideos de arroz",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "caldo vegetal",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "setas",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "jengibre",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "anís estrellado",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "canela",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "brotes de soja",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "lima",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Infusionar el caldo con jengibre y especias.",
+        "Cocer los fideos por separado.",
+        "Servir con setas, brotes, lima y caldo caliente."
+      ],
+      "tiempo_minutos": 45,
+      "raciones": 2,
+      "dietas": [
+        "vegana",
+        "sin gluten si la salsa usada lo permite"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "fideos",
+        "caldo aromático",
+        "vietnamita",
+        "sopa"
+      ],
+      "texto_busqueda": "Pho vegetal. Sopa aromática de fideos de arroz con caldo especiado, setas y brotes. Cocina: vietnamita. Categoría: sopa. Ingredientes: fideos de arroz, caldo vegetal, setas, jengibre, anís estrellado, canela, brotes de soja, lima. Dietas: vegana, sin gluten si la salsa usada lo permite. Etiquetas: fideos, caldo aromático, vietnamita, sopa.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0037",
+      "nombre": "Hamburguesa de lentejas",
+      "cocina": "moderna",
+      "categoria": "principal",
+      "descripcion": "Hamburguesas vegetales de lentejas, sabrosas y fáciles de personalizar.",
+      "ingredientes": [
+        {
+          "nombre": "lentejas cocidas",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "avena",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "comino",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "mostaza",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pan de hamburguesa",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Machacar las lentejas y mezclar con cebolla, ajo, avena y especias.",
+        "Formar hamburguesas y refrigerar brevemente.",
+        "Dorar en sartén y servir en pan o con ensalada."
+      ],
+      "tiempo_minutos": 30,
+      "raciones": 4,
+      "dietas": [
+        "vegana si el pan y la mostaza lo son"
+      ],
+      "alergenos_probables": [
+        "gluten"
+      ],
+      "etiquetas": [
+        "hamburguesa",
+        "legumbres",
+        "alternativa vegetal",
+        "proteína"
+      ],
+      "texto_busqueda": "Hamburguesa de lentejas. Hamburguesas vegetales de lentejas, sabrosas y fáciles de personalizar. Cocina: moderna. Categoría: principal. Ingredientes: lentejas cocidas, avena, cebolla, ajo, comino, mostaza, pan de hamburguesa. Dietas: vegana si el pan y la mostaza lo son. Etiquetas: hamburguesa, legumbres, alternativa vegetal, proteína.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0038",
+      "nombre": "Berenjenas rellenas",
+      "cocina": "mediterránea",
+      "categoria": "principal",
+      "descripcion": "Berenjenas al horno rellenas de tomate y lentejas, con queso opcional.",
+      "ingredientes": [
+        {
+          "nombre": "berenjena",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "lentejas",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "queso opcional",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "orégano",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Partir y hornear las berenjenas hasta ablandar.",
+        "Retirar parte de la pulpa y mezclar con tomate, lentejas y cebolla.",
+        "Rellenar y hornear de nuevo; añadir queso opcional."
+      ],
+      "tiempo_minutos": 50,
+      "raciones": 4,
+      "dietas": [
+        "vegetariana",
+        "opción vegana",
+        "sin gluten"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "berenjena",
+        "horno",
+        "relleno",
+        "verduras"
+      ],
+      "texto_busqueda": "Berenjenas rellenas. Berenjenas al horno rellenas de tomate y lentejas, con queso opcional. Cocina: mediterránea. Categoría: principal. Ingredientes: berenjena, tomate, cebolla, ajo, lentejas, queso opcional, orégano. Dietas: vegetariana, opción vegana, sin gluten. Etiquetas: berenjena, horno, relleno, verduras.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0039",
+      "nombre": "Crema de champiñones",
+      "cocina": "casera",
+      "categoria": "sopa",
+      "descripcion": "Crema de champiñones suave, adaptable a una versión sin lácteos.",
+      "ingredientes": [
+        {
+          "nombre": "champiñones",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "caldo vegetal",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "nata o bebida vegetal",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Saltear champiñones, cebolla y ajo.",
+        "Añadir caldo y cocer unos minutos.",
+        "Triturar y suavizar con nata o bebida vegetal."
+      ],
+      "tiempo_minutos": 25,
+      "raciones": 4,
+      "dietas": [
+        "vegetariana",
+        "opción vegana"
+      ],
+      "alergenos_probables": [
+        "lácteos"
+      ],
+      "etiquetas": [
+        "setas",
+        "crema",
+        "confort",
+        "otoño"
+      ],
+      "texto_busqueda": "Crema de champiñones. Crema de champiñones suave, adaptable a una versión sin lácteos. Cocina: casera. Categoría: sopa. Ingredientes: champiñones, cebolla, ajo, caldo vegetal, nata o bebida vegetal, aceite de oliva. Dietas: vegetariana, opción vegana. Etiquetas: setas, crema, confort, otoño.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0040",
+      "nombre": "Ensalada caprese",
+      "cocina": "italiana",
+      "categoria": "ensalada",
+      "descripcion": "Ensalada italiana sencilla de tomate, mozzarella y albahaca fresca.",
+      "ingredientes": [
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "mozzarella",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "albahaca",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "vinagre balsámico",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Cortar tomate y mozzarella.",
+        "Alternar las rodajas con hojas de albahaca.",
+        "Aliñar justo antes de servir."
+      ],
+      "tiempo_minutos": 10,
+      "raciones": 2,
+      "dietas": [
+        "vegetariana",
+        "sin gluten"
+      ],
+      "alergenos_probables": [
+        "lácteos"
+      ],
+      "etiquetas": [
+        "ensalada",
+        "tomate",
+        "queso",
+        "sin cocción"
+      ],
+      "texto_busqueda": "Ensalada caprese. Ensalada italiana sencilla de tomate, mozzarella y albahaca fresca. Cocina: italiana. Categoría: ensalada. Ingredientes: tomate, mozzarella, albahaca, aceite de oliva, vinagre balsámico. Dietas: vegetariana, sin gluten. Etiquetas: ensalada, tomate, queso, sin cocción.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0041",
+      "nombre": "Pisto manchego",
+      "cocina": "española",
+      "categoria": "verduras",
+      "descripcion": "Guiso de verduras de huerta a fuego lento, útil como plato o guarnición.",
+      "ingredientes": [
+        {
+          "nombre": "calabacín",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "berenjena",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pimiento",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Cortar todas las verduras en dados.",
+        "Pochar cebolla y pimiento y añadir berenjena y calabacín.",
+        "Incorporar tomate y cocinar hasta que quede meloso."
+      ],
+      "tiempo_minutos": 45,
+      "raciones": 4,
+      "dietas": [
+        "vegana",
+        "sin gluten",
+        "sin lactosa"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "verduras",
+        "guiso",
+        "tradicional",
+        "acompañamiento"
+      ],
+      "texto_busqueda": "Pisto manchego. Guiso de verduras de huerta a fuego lento, útil como plato o guarnición. Cocina: española. Categoría: verduras. Ingredientes: calabacín, berenjena, pimiento, tomate, cebolla, aceite de oliva. Dietas: vegana, sin gluten, sin lactosa. Etiquetas: verduras, guiso, tradicional, acompañamiento.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0042",
+      "nombre": "Merluza en papillote",
+      "cocina": "mediterránea",
+      "categoria": "pescado",
+      "descripcion": "Merluza cocinada al vapor dentro de un paquete de horno con verduras y limón.",
+      "ingredientes": [
+        {
+          "nombre": "merluza",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "limón",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "calabacín",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "zanahoria",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "perejil",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Colocar la merluza y las verduras sobre papel de horno.",
+        "Añadir limón, perejil y aceite.",
+        "Cerrar el paquete y hornear hasta que el pescado esté hecho."
+      ],
+      "tiempo_minutos": 25,
+      "raciones": 2,
+      "dietas": [
+        "sin gluten",
+        "sin lactosa"
+      ],
+      "alergenos_probables": [
+        "pescado"
+      ],
+      "etiquetas": [
+        "pescado",
+        "horno",
+        "ligero",
+        "papillote"
+      ],
+      "texto_busqueda": "Merluza en papillote. Merluza cocinada al vapor dentro de un paquete de horno con verduras y limón. Cocina: mediterránea. Categoría: pescado. Ingredientes: merluza, limón, calabacín, zanahoria, aceite de oliva, perejil. Dietas: sin gluten, sin lactosa. Etiquetas: pescado, horno, ligero, papillote.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0043",
+      "nombre": "Porridge de avena y pera",
+      "cocina": "casera",
+      "categoria": "desayuno",
+      "descripcion": "Gachas calientes de avena con pera y canela para un desayuno reconfortante.",
+      "ingredientes": [
+        {
+          "nombre": "avena",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "leche o bebida vegetal",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pera",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "canela",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "nueces",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Cocer la avena con leche o bebida vegetal.",
+        "Cortar la pera en dados.",
+        "Servir con pera, canela y nueces."
+      ],
+      "tiempo_minutos": 12,
+      "raciones": 1,
+      "dietas": [
+        "vegetariana",
+        "opción vegana"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "desayuno",
+        "caliente",
+        "fibra",
+        "fruta"
+      ],
+      "texto_busqueda": "Porridge de avena y pera. Gachas calientes de avena con pera y canela para un desayuno reconfortante. Cocina: casera. Categoría: desayuno. Ingredientes: avena, leche o bebida vegetal, pera, canela, nueces. Dietas: vegetariana, opción vegana. Etiquetas: desayuno, caliente, fibra, fruta.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0044",
+      "nombre": "Muffins de arándanos",
+      "cocina": "repostería",
+      "categoria": "postre",
+      "descripcion": "Magdalenas tiernas con arándanos, adecuadas para desayuno o merienda.",
+      "ingredientes": [
+        {
+          "nombre": "harina",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "arándanos",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "huevo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "leche",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "azúcar",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "levadura química",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Mezclar ingredientes secos y húmedos por separado.",
+        "Combinar sin batir en exceso y añadir arándanos.",
+        "Repartir en moldes y hornear hasta que estén cocidos."
+      ],
+      "tiempo_minutos": 30,
+      "raciones": 12,
+      "dietas": [
+        "vegetariana",
+        "contiene gluten",
+        "contiene lácteos"
+      ],
+      "alergenos_probables": [
+        "gluten",
+        "lácteos",
+        "huevo"
+      ],
+      "etiquetas": [
+        "repostería",
+        "desayuno",
+        "fruta",
+        "horno"
+      ],
+      "texto_busqueda": "Muffins de arándanos. Magdalenas tiernas con arándanos, adecuadas para desayuno o merienda. Cocina: repostería. Categoría: postre. Ingredientes: harina, arándanos, huevo, leche, azúcar, aceite, levadura química. Dietas: vegetariana, contiene gluten, contiene lácteos. Etiquetas: repostería, desayuno, fruta, horno.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0045",
+      "nombre": "Aloo gobi",
+      "cocina": "india",
+      "categoria": "verduras",
+      "descripcion": "Plato indio de patata y coliflor con cúrcuma, comino y jengibre.",
+      "ingredientes": [
+        {
+          "nombre": "patata",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "coliflor",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "jengibre",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cúrcuma",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "comino",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Dorar ligeramente las patatas.",
+        "Añadir cebolla, ajo, jengibre y especias.",
+        "Incorporar coliflor y tomate y cocinar hasta que estén tiernos."
+      ],
+      "tiempo_minutos": 35,
+      "raciones": 4,
+      "dietas": [
+        "vegana",
+        "sin gluten",
+        "sin lactosa"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "india",
+        "coliflor",
+        "patata",
+        "especiado"
+      ],
+      "texto_busqueda": "Aloo gobi. Plato indio de patata y coliflor con cúrcuma, comino y jengibre. Cocina: india. Categoría: verduras. Ingredientes: patata, coliflor, tomate, cebolla, ajo, jengibre, cúrcuma, comino. Dietas: vegana, sin gluten, sin lactosa. Etiquetas: india, coliflor, patata, especiado.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0046",
+      "nombre": "Arepas con aguacate y frijoles",
+      "cocina": "venezolana",
+      "categoria": "principal",
+      "descripcion": "Arepas de maíz rellenas de frijoles y aguacate, una comida vegetal y sin gluten.",
+      "ingredientes": [
+        {
+          "nombre": "harina de maíz precocida",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "agua",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "sal",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "frijoles negros",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aguacate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "lima",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Mezclar harina de maíz, agua y sal y dejar reposar.",
+        "Formar discos y cocinarlos en plancha.",
+        "Abrir las arepas y rellenar con frijoles y aguacate."
+      ],
+      "tiempo_minutos": 30,
+      "raciones": 4,
+      "dietas": [
+        "vegana",
+        "sin gluten"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "maíz",
+        "venezolana",
+        "relleno",
+        "legumbres"
+      ],
+      "texto_busqueda": "Arepas con aguacate y frijoles. Arepas de maíz rellenas de frijoles y aguacate, una comida vegetal y sin gluten. Cocina: venezolana. Categoría: principal. Ingredientes: harina de maíz precocida, agua, sal, frijoles negros, aguacate, lima. Dietas: vegana, sin gluten. Etiquetas: maíz, venezolana, relleno, legumbres.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0047",
+      "nombre": "Papas bravas",
+      "cocina": "española",
+      "categoria": "aperitivo",
+      "descripcion": "Patatas en dados con salsa brava de tomate y pimentón, con picante ajustable.",
+      "ingredientes": [
+        {
+          "nombre": "patata",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pimentón",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "guindilla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Cortar y asar o freír las patatas.",
+        "Preparar una salsa de tomate con ajo, pimentón y guindilla.",
+        "Servir las patatas con la salsa."
+      ],
+      "tiempo_minutos": 35,
+      "raciones": 4,
+      "dietas": [
+        "vegana",
+        "sin gluten"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "tapa",
+        "patata",
+        "picante",
+        "aperitivo"
+      ],
+      "texto_busqueda": "Papas bravas. Patatas en dados con salsa brava de tomate y pimentón, con picante ajustable. Cocina: española. Categoría: aperitivo. Ingredientes: patata, tomate, ajo, pimentón, guindilla, aceite de oliva. Dietas: vegana, sin gluten. Etiquetas: tapa, patata, picante, aperitivo.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0048",
+      "nombre": "Crepes de espinacas y ricotta",
+      "cocina": "francesa",
+      "categoria": "principal",
+      "descripcion": "Crepes salados rellenos de espinacas y ricotta, suaves y cremosos.",
+      "ingredientes": [
+        {
+          "nombre": "harina",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "huevo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "leche",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "espinacas",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ricotta",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "nuez moscada",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Preparar una masa fina con harina, huevo y leche.",
+        "Cocinar crepes en sartén.",
+        "Rellenar con espinacas salteadas y ricotta y doblar."
+      ],
+      "tiempo_minutos": 30,
+      "raciones": 4,
+      "dietas": [
+        "vegetariana",
+        "contiene gluten",
+        "contiene lácteos"
+      ],
+      "alergenos_probables": [
+        "gluten",
+        "lácteos",
+        "huevo"
+      ],
+      "etiquetas": [
+        "crepes",
+        "espinaca",
+        "queso",
+        "comida ligera"
+      ],
+      "texto_busqueda": "Crepes de espinacas y ricotta. Crepes salados rellenos de espinacas y ricotta, suaves y cremosos. Cocina: francesa. Categoría: principal. Ingredientes: harina, huevo, leche, espinacas, ricotta, nuez moscada. Dietas: vegetariana, contiene gluten, contiene lácteos. Etiquetas: crepes, espinaca, queso, comida ligera.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0049",
+      "nombre": "Polenta con setas",
+      "cocina": "italiana",
+      "categoria": "principal",
+      "descripcion": "Polenta cremosa de maíz acompañada de setas salteadas con hierbas.",
+      "ingredientes": [
+        {
+          "nombre": "harina de maíz",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "caldo vegetal",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "setas",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomillo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Cocer la polenta en caldo removiendo.",
+        "Saltear las setas con ajo y tomillo.",
+        "Servir las setas sobre la polenta cremosa."
+      ],
+      "tiempo_minutos": 30,
+      "raciones": 3,
+      "dietas": [
+        "vegana",
+        "sin gluten"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "maíz",
+        "setas",
+        "cremoso",
+        "sin trigo"
+      ],
+      "texto_busqueda": "Polenta con setas. Polenta cremosa de maíz acompañada de setas salteadas con hierbas. Cocina: italiana. Categoría: principal. Ingredientes: harina de maíz, caldo vegetal, setas, ajo, tomillo, aceite de oliva. Dietas: vegana, sin gluten. Etiquetas: maíz, setas, cremoso, sin trigo.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0050",
+      "nombre": "Pudding de chía y mango",
+      "cocina": "moderna",
+      "categoria": "desayuno",
+      "descripcion": "Pudding frío de chía y coco con mango, preparado con antelación.",
+      "ingredientes": [
+        {
+          "nombre": "semillas de chía",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "bebida de coco",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "mango",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "lima",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Mezclar chía con bebida de coco.",
+        "Refrigerar hasta que espese.",
+        "Servir con mango troceado y unas gotas de lima."
+      ],
+      "tiempo_minutos": 10,
+      "raciones": 2,
+      "dietas": [
+        "vegana",
+        "sin gluten",
+        "sin lácteos"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "desayuno",
+        "sin cocción",
+        "mango",
+        "preparación anticipada"
+      ],
+      "texto_busqueda": "Pudding de chía y mango. Pudding frío de chía y coco con mango, preparado con antelación. Cocina: moderna. Categoría: desayuno. Ingredientes: semillas de chía, bebida de coco, mango, lima. Dietas: vegana, sin gluten, sin lácteos. Etiquetas: desayuno, sin cocción, mango, preparación anticipada.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0051",
+      "nombre": "Sándwich de atún",
+      "cocina": "casera",
+      "categoria": "principal",
+      "descripcion": "Sándwich rápido de atún con una mezcla cremosa y hojas frescas.",
+      "ingredientes": [
+        {
+          "nombre": "pan",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "atún en conserva",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "yogur o mayonesa",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "apio",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "limón",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "lechuga",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Escurrir el atún y mezclar con yogur o mayonesa y limón.",
+        "Añadir apio picado.",
+        "Montar el sándwich con lechuga."
+      ],
+      "tiempo_minutos": 10,
+      "raciones": 2,
+      "dietas": [
+        "contiene gluten",
+        "pescado"
+      ],
+      "alergenos_probables": [
+        "gluten",
+        "pescado"
+      ],
+      "etiquetas": [
+        "sándwich",
+        "rápido",
+        "almuerzo",
+        "atún"
+      ],
+      "texto_busqueda": "Sándwich de atún. Sándwich rápido de atún con una mezcla cremosa y hojas frescas. Cocina: casera. Categoría: principal. Ingredientes: pan, atún en conserva, yogur o mayonesa, apio, limón, lechuga. Dietas: contiene gluten, pescado. Etiquetas: sándwich, rápido, almuerzo, atún.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0052",
+      "nombre": "Frittata de calabacín",
+      "cocina": "italiana",
+      "categoria": "huevos",
+      "descripcion": "Tortilla italiana al estilo frittata con calabacín y parmesano.",
+      "ingredientes": [
+        {
+          "nombre": "huevo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "calabacín",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "parmesano",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pimienta",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Saltear calabacín y cebolla.",
+        "Añadir huevos batidos y parmesano.",
+        "Cuajar a fuego bajo y terminar bajo el grill si hace falta."
+      ],
+      "tiempo_minutos": 25,
+      "raciones": 3,
+      "dietas": [
+        "vegetariana",
+        "sin gluten"
+      ],
+      "alergenos_probables": [
+        "lácteos",
+        "huevo"
+      ],
+      "etiquetas": [
+        "huevo",
+        "calabacín",
+        "una sartén",
+        "cena"
+      ],
+      "texto_busqueda": "Frittata de calabacín. Tortilla italiana al estilo frittata con calabacín y parmesano. Cocina: italiana. Categoría: huevos. Ingredientes: huevo, calabacín, cebolla, parmesano, aceite de oliva, pimienta. Dietas: vegetariana, sin gluten. Etiquetas: huevo, calabacín, una sartén, cena.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0053",
+      "nombre": "Albóndigas de pavo en tomate",
+      "cocina": "casera",
+      "categoria": "principal",
+      "descripcion": "Albóndigas tiernas de pavo cocinadas en salsa casera de tomate.",
+      "ingredientes": [
+        {
+          "nombre": "pavo picado",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "huevo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pan rallado",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "orégano",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Mezclar pavo con huevo y pan rallado y formar albóndigas.",
+        "Dorar las albóndigas.",
+        "Cocinar en salsa de tomate hasta que estén hechas."
+      ],
+      "tiempo_minutos": 40,
+      "raciones": 4,
+      "dietas": [
+        "contiene gluten"
+      ],
+      "alergenos_probables": [
+        "gluten",
+        "huevo"
+      ],
+      "etiquetas": [
+        "pavo",
+        "albóndigas",
+        "tomate",
+        "comida familiar"
+      ],
+      "texto_busqueda": "Albóndigas de pavo en tomate. Albóndigas tiernas de pavo cocinadas en salsa casera de tomate. Cocina: casera. Categoría: principal. Ingredientes: pavo picado, huevo, pan rallado, tomate, cebolla, ajo, orégano. Dietas: contiene gluten. Etiquetas: pavo, albóndigas, tomate, comida familiar.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0054",
+      "nombre": "Sopa minestrone",
+      "cocina": "italiana",
+      "categoria": "sopa",
+      "descripcion": "Sopa italiana de verduras, alubias y pasta, abundante y adaptable a lo que haya en casa.",
+      "ingredientes": [
+        {
+          "nombre": "alubias",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pasta pequeña",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "zanahoria",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "apio",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "calabacín",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "caldo vegetal",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Sofreír las verduras cortadas.",
+        "Añadir tomate, caldo y alubias y cocer.",
+        "Agregar la pasta y cocinar hasta que esté tierna."
+      ],
+      "tiempo_minutos": 35,
+      "raciones": 4,
+      "dietas": [
+        "vegana si la pasta no lleva huevo"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "sopa",
+        "verduras",
+        "legumbres",
+        "italiana"
+      ],
+      "texto_busqueda": "Sopa minestrone. Sopa italiana de verduras, alubias y pasta, abundante y adaptable a lo que haya en casa. Cocina: italiana. Categoría: sopa. Ingredientes: alubias, pasta pequeña, zanahoria, apio, calabacín, tomate, caldo vegetal. Dietas: vegana si la pasta no lleva huevo. Etiquetas: sopa, verduras, legumbres, italiana.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0055",
+      "nombre": "Ensalada de lentejas y naranja",
+      "cocina": "moderna",
+      "categoria": "ensalada",
+      "descripcion": "Ensalada de lentejas con naranja, hojas verdes y nueces, con contraste dulce y ácido.",
+      "ingredientes": [
+        {
+          "nombre": "lentejas cocidas",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "naranja",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "espinacas",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla roja",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "nueces",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "vinagreta",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Enjuagar las lentejas y escurrirlas.",
+        "Pelar y cortar la naranja y la cebolla.",
+        "Mezclar con espinacas y nueces y aliñar."
+      ],
+      "tiempo_minutos": 15,
+      "raciones": 2,
+      "dietas": [
+        "vegana",
+        "sin gluten",
+        "rica en fibra"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "ensalada",
+        "lentejas",
+        "cítrico",
+        "proteína vegetal"
+      ],
+      "texto_busqueda": "Ensalada de lentejas y naranja. Ensalada de lentejas con naranja, hojas verdes y nueces, con contraste dulce y ácido. Cocina: moderna. Categoría: ensalada. Ingredientes: lentejas cocidas, naranja, espinacas, cebolla roja, nueces, vinagreta. Dietas: vegana, sin gluten, rica en fibra. Etiquetas: ensalada, lentejas, cítrico, proteína vegetal.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0056",
+      "nombre": "Bowl de arroz, edamame y aguacate",
+      "cocina": "moderna",
+      "categoria": "principal",
+      "descripcion": "Bol de arroz con edamame y verduras frescas, con aliño de soja y sésamo.",
+      "ingredientes": [
+        {
+          "nombre": "arroz",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "edamame",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aguacate",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pepino",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "sésamo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "salsa de soja",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Cocer el arroz y el edamame.",
+        "Cortar el aguacate y el pepino.",
+        "Montar el bol y añadir sésamo y salsa de soja."
+      ],
+      "tiempo_minutos": 20,
+      "raciones": 2,
+      "dietas": [
+        "vegana",
+        "sin lácteos"
+      ],
+      "alergenos_probables": [
+        "soja",
+        "sésamo"
+      ],
+      "etiquetas": [
+        "bowl",
+        "arroz",
+        "soja",
+        "comida equilibrada"
+      ],
+      "texto_busqueda": "Bowl de arroz, edamame y aguacate. Bol de arroz con edamame y verduras frescas, con aliño de soja y sésamo. Cocina: moderna. Categoría: principal. Ingredientes: arroz, edamame, aguacate, pepino, sésamo, salsa de soja. Dietas: vegana, sin lácteos. Etiquetas: bowl, arroz, soja, comida equilibrada.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0057",
+      "nombre": "Bizcocho de yogur",
+      "cocina": "española",
+      "categoria": "postre",
+      "descripcion": "Bizcocho casero sencillo de yogur con aroma de limón.",
+      "ingredientes": [
+        {
+          "nombre": "yogur",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "harina",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "huevo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "azúcar",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "levadura química",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "limón",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Mezclar yogur, huevos, azúcar y aceite.",
+        "Incorporar harina y levadura.",
+        "Hornear hasta que un palillo salga limpio."
+      ],
+      "tiempo_minutos": 45,
+      "raciones": 8,
+      "dietas": [
+        "vegetariana",
+        "contiene gluten",
+        "contiene lácteos"
+      ],
+      "alergenos_probables": [
+        "gluten",
+        "lácteos",
+        "huevo"
+      ],
+      "etiquetas": [
+        "bizcocho",
+        "merienda",
+        "limón",
+        "horno"
+      ],
+      "texto_busqueda": "Bizcocho de yogur. Bizcocho casero sencillo de yogur con aroma de limón. Cocina: española. Categoría: postre. Ingredientes: yogur, harina, huevo, azúcar, aceite, levadura química, limón. Dietas: vegetariana, contiene gluten, contiene lácteos. Etiquetas: bizcocho, merienda, limón, horno.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0058",
+      "nombre": "Flan de vainilla",
+      "cocina": "repostería",
+      "categoria": "postre",
+      "descripcion": "Flan clásico de vainilla con textura suave y caramelo.",
+      "ingredientes": [
+        {
+          "nombre": "leche",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "huevo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "azúcar",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "vainilla",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Preparar caramelo con parte del azúcar.",
+        "Mezclar leche, huevos, azúcar y vainilla.",
+        "Verter en moldes y hornear al baño maría hasta cuajar."
+      ],
+      "tiempo_minutos": 55,
+      "raciones": 6,
+      "dietas": [
+        "vegetariana",
+        "sin gluten"
+      ],
+      "alergenos_probables": [
+        "lácteos",
+        "huevo"
+      ],
+      "etiquetas": [
+        "postre",
+        "huevo",
+        "lácteos",
+        "cremoso"
+      ],
+      "texto_busqueda": "Flan de vainilla. Flan clásico de vainilla con textura suave y caramelo. Cocina: repostería. Categoría: postre. Ingredientes: leche, huevo, azúcar, vainilla. Dietas: vegetariana, sin gluten. Etiquetas: postre, huevo, lácteos, cremoso.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0059",
+      "nombre": "Patatas al romero",
+      "cocina": "mediterránea",
+      "categoria": "acompañamiento",
+      "descripcion": "Patatas asadas con romero y ajo, crujientes por fuera y tiernas por dentro.",
+      "ingredientes": [
+        {
+          "nombre": "patata",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "romero",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "sal",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "pimienta",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Cortar las patatas en gajos.",
+        "Mezclar con aceite, ajo, romero y condimentos.",
+        "Hornear hasta que estén doradas y tiernas."
+      ],
+      "tiempo_minutos": 40,
+      "raciones": 4,
+      "dietas": [
+        "vegana",
+        "sin gluten",
+        "sin lactosa"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "guarnición",
+        "horno",
+        "patata",
+        "crujiente"
+      ],
+      "texto_busqueda": "Patatas al romero. Patatas asadas con romero y ajo, crujientes por fuera y tiernas por dentro. Cocina: mediterránea. Categoría: acompañamiento. Ingredientes: patata, romero, ajo, aceite de oliva, sal, pimienta. Dietas: vegana, sin gluten, sin lactosa. Etiquetas: guarnición, horno, patata, crujiente.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0060",
+      "nombre": "Gachas de maíz con verduras",
+      "cocina": "casera",
+      "categoria": "principal",
+      "descripcion": "Plato sencillo de maíz cocido con verduras, económico y sin trigo.",
+      "ingredientes": [
+        {
+          "nombre": "harina de maíz",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "caldo vegetal",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "espinacas",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Cocinar la cebolla y el ajo.",
+        "Añadir caldo y harina de maíz poco a poco, removiendo.",
+        "Incorporar espinacas y cocinar hasta espesar."
+      ],
+      "tiempo_minutos": 25,
+      "raciones": 3,
+      "dietas": [
+        "vegana",
+        "sin gluten"
+      ],
+      "alergenos_probables": [],
+      "etiquetas": [
+        "maíz",
+        "cremoso",
+        "verduras",
+        "económico"
+      ],
+      "texto_busqueda": "Gachas de maíz con verduras. Plato sencillo de maíz cocido con verduras, económico y sin trigo. Cocina: casera. Categoría: principal. Ingredientes: harina de maíz, caldo vegetal, espinacas, ajo, cebolla, aceite de oliva. Dietas: vegana, sin gluten. Etiquetas: maíz, cremoso, verduras, económico.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    },
+    {
+      "id": "receta_0061",
+      "nombre": "Pescado en salsa verde",
+      "cocina": "española",
+      "categoria": "pescado",
+      "descripcion": "Pescado blanco en salsa verde de perejil y ajo, típico de la cocina española.",
+      "ingredientes": [
+        {
+          "nombre": "merluza",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "perejil",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "caldo de pescado",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "harina",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": null,
+          "unidad": null
+        },
+        {
+          "nombre": "guisantes",
+          "cantidad": null,
+          "unidad": null
+        }
+      ],
+      "instrucciones": [
+        "Dorar el ajo y añadir una pequeña cantidad de harina.",
+        "Incorporar caldo y perejil para formar la salsa.",
+        "Añadir el pescado y guisantes y cocinar suavemente."
+      ],
+      "tiempo_minutos": 25,
+      "raciones": 4,
+      "dietas": [
+        "pescado"
+      ],
+      "alergenos_probables": [
+        "gluten",
+        "pescado"
+      ],
+      "etiquetas": [
+        "merluza",
+        "perejil",
+        "salsa",
+        "tradicional"
+      ],
+      "texto_busqueda": "Pescado en salsa verde. Pescado blanco en salsa verde de perejil y ajo, típico de la cocina española. Cocina: española. Categoría: pescado. Ingredientes: merluza, perejil, ajo, caldo de pescado, harina, aceite de oliva, guisantes. Dietas: pescado. Etiquetas: merluza, perejil, salsa, tradicional.",
+      "fuente": "dataset_sintetico_para_pruebas",
+      "version_esquema": "1.0"
+    }
+  ]
+}

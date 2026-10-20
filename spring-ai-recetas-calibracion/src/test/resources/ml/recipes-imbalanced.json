@@ -1,0 +1,1813 @@
+{
+  "name": "recipes-imbalanced",
+  "schemaVersion": "1.0",
+  "task": "SINGLE_LABEL_CLASSIFICATION",
+  "labels": [
+    "entrante",
+    "principal",
+    "postre"
+  ],
+  "records": [
+    {
+      "id": "entrante-0000",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0000.",
+      "label": "entrante",
+      "groupId": "entrante-0000"
+    },
+    {
+      "id": "entrante-0001",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0001.",
+      "label": "entrante",
+      "groupId": "entrante-0000"
+    },
+    {
+      "id": "entrante-0002",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0002.",
+      "label": "entrante",
+      "groupId": "entrante-0001"
+    },
+    {
+      "id": "entrante-0003",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0003.",
+      "label": "entrante",
+      "groupId": "entrante-0001"
+    },
+    {
+      "id": "entrante-0004",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0004.",
+      "label": "entrante",
+      "groupId": "entrante-0002"
+    },
+    {
+      "id": "entrante-0005",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0005.",
+      "label": "entrante",
+      "groupId": "entrante-0002"
+    },
+    {
+      "id": "entrante-0006",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0006.",
+      "label": "entrante",
+      "groupId": "entrante-0003"
+    },
+    {
+      "id": "entrante-0007",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0007.",
+      "label": "entrante",
+      "groupId": "entrante-0003"
+    },
+    {
+      "id": "entrante-0008",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0008.",
+      "label": "entrante",
+      "groupId": "entrante-0004"
+    },
+    {
+      "id": "entrante-0009",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0009.",
+      "label": "entrante",
+      "groupId": "entrante-0004"
+    },
+    {
+      "id": "entrante-0010",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0010.",
+      "label": "entrante",
+      "groupId": "entrante-0005"
+    },
+    {
+      "id": "entrante-0011",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0011.",
+      "label": "entrante",
+      "groupId": "entrante-0005"
+    },
+    {
+      "id": "entrante-0012",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0012.",
+      "label": "entrante",
+      "groupId": "entrante-0006"
+    },
+    {
+      "id": "entrante-0013",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0013.",
+      "label": "entrante",
+      "groupId": "entrante-0006"
+    },
+    {
+      "id": "entrante-0014",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0014.",
+      "label": "entrante",
+      "groupId": "entrante-0007"
+    },
+    {
+      "id": "entrante-0015",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0015.",
+      "label": "entrante",
+      "groupId": "entrante-0007"
+    },
+    {
+      "id": "entrante-0016",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0016.",
+      "label": "entrante",
+      "groupId": "entrante-0008"
+    },
+    {
+      "id": "entrante-0017",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0017.",
+      "label": "entrante",
+      "groupId": "entrante-0008"
+    },
+    {
+      "id": "entrante-0018",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0018.",
+      "label": "entrante",
+      "groupId": "entrante-0009"
+    },
+    {
+      "id": "entrante-0019",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0019.",
+      "label": "entrante",
+      "groupId": "entrante-0009"
+    },
+    {
+      "id": "entrante-0020",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0020.",
+      "label": "entrante",
+      "groupId": "entrante-0010"
+    },
+    {
+      "id": "entrante-0021",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0021.",
+      "label": "entrante",
+      "groupId": "entrante-0010"
+    },
+    {
+      "id": "entrante-0022",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0022.",
+      "label": "entrante",
+      "groupId": "entrante-0011"
+    },
+    {
+      "id": "entrante-0023",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0023.",
+      "label": "entrante",
+      "groupId": "entrante-0011"
+    },
+    {
+      "id": "entrante-0024",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0024.",
+      "label": "entrante",
+      "groupId": "entrante-0012"
+    },
+    {
+      "id": "entrante-0025",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0025.",
+      "label": "entrante",
+      "groupId": "entrante-0012"
+    },
+    {
+      "id": "entrante-0026",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0026.",
+      "label": "entrante",
+      "groupId": "entrante-0013"
+    },
+    {
+      "id": "entrante-0027",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0027.",
+      "label": "entrante",
+      "groupId": "entrante-0013"
+    },
+    {
+      "id": "entrante-0028",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0028.",
+      "label": "entrante",
+      "groupId": "entrante-0014"
+    },
+    {
+      "id": "entrante-0029",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0029.",
+      "label": "entrante",
+      "groupId": "entrante-0014"
+    },
+    {
+      "id": "entrante-0030",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0030.",
+      "label": "entrante",
+      "groupId": "entrante-0015"
+    },
+    {
+      "id": "entrante-0031",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0031.",
+      "label": "entrante",
+      "groupId": "entrante-0015"
+    },
+    {
+      "id": "entrante-0032",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0032.",
+      "label": "entrante",
+      "groupId": "entrante-0016"
+    },
+    {
+      "id": "entrante-0033",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0033.",
+      "label": "entrante",
+      "groupId": "entrante-0016"
+    },
+    {
+      "id": "entrante-0034",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0034.",
+      "label": "entrante",
+      "groupId": "entrante-0017"
+    },
+    {
+      "id": "entrante-0035",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0035.",
+      "label": "entrante",
+      "groupId": "entrante-0017"
+    },
+    {
+      "id": "entrante-0036",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0036.",
+      "label": "entrante",
+      "groupId": "entrante-0018"
+    },
+    {
+      "id": "entrante-0037",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0037.",
+      "label": "entrante",
+      "groupId": "entrante-0018"
+    },
+    {
+      "id": "entrante-0038",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0038.",
+      "label": "entrante",
+      "groupId": "entrante-0019"
+    },
+    {
+      "id": "entrante-0039",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0039.",
+      "label": "entrante",
+      "groupId": "entrante-0019"
+    },
+    {
+      "id": "entrante-0040",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0040.",
+      "label": "entrante",
+      "groupId": "entrante-0020"
+    },
+    {
+      "id": "entrante-0041",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0041.",
+      "label": "entrante",
+      "groupId": "entrante-0020"
+    },
+    {
+      "id": "entrante-0042",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0042.",
+      "label": "entrante",
+      "groupId": "entrante-0021"
+    },
+    {
+      "id": "entrante-0043",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0043.",
+      "label": "entrante",
+      "groupId": "entrante-0021"
+    },
+    {
+      "id": "entrante-0044",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0044.",
+      "label": "entrante",
+      "groupId": "entrante-0022"
+    },
+    {
+      "id": "entrante-0045",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0045.",
+      "label": "entrante",
+      "groupId": "entrante-0022"
+    },
+    {
+      "id": "entrante-0046",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0046.",
+      "label": "entrante",
+      "groupId": "entrante-0023"
+    },
+    {
+      "id": "entrante-0047",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0047.",
+      "label": "entrante",
+      "groupId": "entrante-0023"
+    },
+    {
+      "id": "entrante-0048",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0048.",
+      "label": "entrante",
+      "groupId": "entrante-0024"
+    },
+    {
+      "id": "entrante-0049",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0049.",
+      "label": "entrante",
+      "groupId": "entrante-0024"
+    },
+    {
+      "id": "entrante-0050",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0050.",
+      "label": "entrante",
+      "groupId": "entrante-0025"
+    },
+    {
+      "id": "entrante-0051",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0051.",
+      "label": "entrante",
+      "groupId": "entrante-0025"
+    },
+    {
+      "id": "entrante-0052",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0052.",
+      "label": "entrante",
+      "groupId": "entrante-0026"
+    },
+    {
+      "id": "entrante-0053",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0053.",
+      "label": "entrante",
+      "groupId": "entrante-0026"
+    },
+    {
+      "id": "entrante-0054",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0054.",
+      "label": "entrante",
+      "groupId": "entrante-0027"
+    },
+    {
+      "id": "entrante-0055",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0055.",
+      "label": "entrante",
+      "groupId": "entrante-0027"
+    },
+    {
+      "id": "entrante-0056",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0056.",
+      "label": "entrante",
+      "groupId": "entrante-0028"
+    },
+    {
+      "id": "entrante-0057",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0057.",
+      "label": "entrante",
+      "groupId": "entrante-0028"
+    },
+    {
+      "id": "entrante-0058",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0058.",
+      "label": "entrante",
+      "groupId": "entrante-0029"
+    },
+    {
+      "id": "entrante-0059",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0059.",
+      "label": "entrante",
+      "groupId": "entrante-0029"
+    },
+    {
+      "id": "entrante-0060",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0060.",
+      "label": "entrante",
+      "groupId": "entrante-0030"
+    },
+    {
+      "id": "entrante-0061",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0061.",
+      "label": "entrante",
+      "groupId": "entrante-0030"
+    },
+    {
+      "id": "entrante-0062",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0062.",
+      "label": "entrante",
+      "groupId": "entrante-0031"
+    },
+    {
+      "id": "entrante-0063",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0063.",
+      "label": "entrante",
+      "groupId": "entrante-0031"
+    },
+    {
+      "id": "entrante-0064",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0064.",
+      "label": "entrante",
+      "groupId": "entrante-0032"
+    },
+    {
+      "id": "entrante-0065",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0065.",
+      "label": "entrante",
+      "groupId": "entrante-0032"
+    },
+    {
+      "id": "entrante-0066",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0066.",
+      "label": "entrante",
+      "groupId": "entrante-0033"
+    },
+    {
+      "id": "entrante-0067",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0067.",
+      "label": "entrante",
+      "groupId": "entrante-0033"
+    },
+    {
+      "id": "entrante-0068",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0068.",
+      "label": "entrante",
+      "groupId": "entrante-0034"
+    },
+    {
+      "id": "entrante-0069",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0069.",
+      "label": "entrante",
+      "groupId": "entrante-0034"
+    },
+    {
+      "id": "entrante-0070",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0070.",
+      "label": "entrante",
+      "groupId": "entrante-0035"
+    },
+    {
+      "id": "entrante-0071",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0071.",
+      "label": "entrante",
+      "groupId": "entrante-0035"
+    },
+    {
+      "id": "entrante-0072",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0072.",
+      "label": "entrante",
+      "groupId": "entrante-0036"
+    },
+    {
+      "id": "entrante-0073",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0073.",
+      "label": "entrante",
+      "groupId": "entrante-0036"
+    },
+    {
+      "id": "entrante-0074",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0074.",
+      "label": "entrante",
+      "groupId": "entrante-0037"
+    },
+    {
+      "id": "entrante-0075",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0075.",
+      "label": "entrante",
+      "groupId": "entrante-0037"
+    },
+    {
+      "id": "entrante-0076",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0076.",
+      "label": "entrante",
+      "groupId": "entrante-0038"
+    },
+    {
+      "id": "entrante-0077",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0077.",
+      "label": "entrante",
+      "groupId": "entrante-0038"
+    },
+    {
+      "id": "entrante-0078",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0078.",
+      "label": "entrante",
+      "groupId": "entrante-0039"
+    },
+    {
+      "id": "entrante-0079",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0079.",
+      "label": "entrante",
+      "groupId": "entrante-0039"
+    },
+    {
+      "id": "entrante-0080",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0080.",
+      "label": "entrante",
+      "groupId": "entrante-0040"
+    },
+    {
+      "id": "entrante-0081",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0081.",
+      "label": "entrante",
+      "groupId": "entrante-0040"
+    },
+    {
+      "id": "entrante-0082",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0082.",
+      "label": "entrante",
+      "groupId": "entrante-0041"
+    },
+    {
+      "id": "entrante-0083",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0083.",
+      "label": "entrante",
+      "groupId": "entrante-0041"
+    },
+    {
+      "id": "entrante-0084",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0084.",
+      "label": "entrante",
+      "groupId": "entrante-0042"
+    },
+    {
+      "id": "entrante-0085",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0085.",
+      "label": "entrante",
+      "groupId": "entrante-0042"
+    },
+    {
+      "id": "entrante-0086",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0086.",
+      "label": "entrante",
+      "groupId": "entrante-0043"
+    },
+    {
+      "id": "entrante-0087",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0087.",
+      "label": "entrante",
+      "groupId": "entrante-0043"
+    },
+    {
+      "id": "entrante-0088",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0088.",
+      "label": "entrante",
+      "groupId": "entrante-0044"
+    },
+    {
+      "id": "entrante-0089",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0089.",
+      "label": "entrante",
+      "groupId": "entrante-0044"
+    },
+    {
+      "id": "entrante-0090",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0090.",
+      "label": "entrante",
+      "groupId": "entrante-0045"
+    },
+    {
+      "id": "entrante-0091",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0091.",
+      "label": "entrante",
+      "groupId": "entrante-0045"
+    },
+    {
+      "id": "entrante-0092",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0092.",
+      "label": "entrante",
+      "groupId": "entrante-0046"
+    },
+    {
+      "id": "entrante-0093",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0093.",
+      "label": "entrante",
+      "groupId": "entrante-0046"
+    },
+    {
+      "id": "entrante-0094",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0094.",
+      "label": "entrante",
+      "groupId": "entrante-0047"
+    },
+    {
+      "id": "entrante-0095",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0095.",
+      "label": "entrante",
+      "groupId": "entrante-0047"
+    },
+    {
+      "id": "entrante-0096",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0096.",
+      "label": "entrante",
+      "groupId": "entrante-0048"
+    },
+    {
+      "id": "entrante-0097",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0097.",
+      "label": "entrante",
+      "groupId": "entrante-0048"
+    },
+    {
+      "id": "entrante-0098",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0098.",
+      "label": "entrante",
+      "groupId": "entrante-0049"
+    },
+    {
+      "id": "entrante-0099",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0099.",
+      "label": "entrante",
+      "groupId": "entrante-0049"
+    },
+    {
+      "id": "entrante-0100",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0100.",
+      "label": "entrante",
+      "groupId": "entrante-0050"
+    },
+    {
+      "id": "entrante-0101",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0101.",
+      "label": "entrante",
+      "groupId": "entrante-0050"
+    },
+    {
+      "id": "entrante-0102",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0102.",
+      "label": "entrante",
+      "groupId": "entrante-0051"
+    },
+    {
+      "id": "entrante-0103",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0103.",
+      "label": "entrante",
+      "groupId": "entrante-0051"
+    },
+    {
+      "id": "entrante-0104",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0104.",
+      "label": "entrante",
+      "groupId": "entrante-0052"
+    },
+    {
+      "id": "entrante-0105",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0105.",
+      "label": "entrante",
+      "groupId": "entrante-0052"
+    },
+    {
+      "id": "entrante-0106",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0106.",
+      "label": "entrante",
+      "groupId": "entrante-0053"
+    },
+    {
+      "id": "entrante-0107",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0107.",
+      "label": "entrante",
+      "groupId": "entrante-0053"
+    },
+    {
+      "id": "entrante-0108",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0108.",
+      "label": "entrante",
+      "groupId": "entrante-0054"
+    },
+    {
+      "id": "entrante-0109",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0109.",
+      "label": "entrante",
+      "groupId": "entrante-0054"
+    },
+    {
+      "id": "entrante-0110",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0110.",
+      "label": "entrante",
+      "groupId": "entrante-0055"
+    },
+    {
+      "id": "entrante-0111",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0111.",
+      "label": "entrante",
+      "groupId": "entrante-0055"
+    },
+    {
+      "id": "entrante-0112",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0112.",
+      "label": "entrante",
+      "groupId": "entrante-0056"
+    },
+    {
+      "id": "entrante-0113",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0113.",
+      "label": "entrante",
+      "groupId": "entrante-0056"
+    },
+    {
+      "id": "entrante-0114",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0114.",
+      "label": "entrante",
+      "groupId": "entrante-0057"
+    },
+    {
+      "id": "entrante-0115",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0115.",
+      "label": "entrante",
+      "groupId": "entrante-0057"
+    },
+    {
+      "id": "entrante-0116",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0116.",
+      "label": "entrante",
+      "groupId": "entrante-0058"
+    },
+    {
+      "id": "entrante-0117",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0117.",
+      "label": "entrante",
+      "groupId": "entrante-0058"
+    },
+    {
+      "id": "entrante-0118",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0118.",
+      "label": "entrante",
+      "groupId": "entrante-0059"
+    },
+    {
+      "id": "entrante-0119",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0119.",
+      "label": "entrante",
+      "groupId": "entrante-0059"
+    },
+    {
+      "id": "entrante-0120",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0120.",
+      "label": "entrante",
+      "groupId": "entrante-0060"
+    },
+    {
+      "id": "entrante-0121",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0121.",
+      "label": "entrante",
+      "groupId": "entrante-0060"
+    },
+    {
+      "id": "entrante-0122",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0122.",
+      "label": "entrante",
+      "groupId": "entrante-0061"
+    },
+    {
+      "id": "entrante-0123",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0123.",
+      "label": "entrante",
+      "groupId": "entrante-0061"
+    },
+    {
+      "id": "entrante-0124",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0124.",
+      "label": "entrante",
+      "groupId": "entrante-0062"
+    },
+    {
+      "id": "entrante-0125",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0125.",
+      "label": "entrante",
+      "groupId": "entrante-0062"
+    },
+    {
+      "id": "entrante-0126",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0126.",
+      "label": "entrante",
+      "groupId": "entrante-0063"
+    },
+    {
+      "id": "entrante-0127",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0127.",
+      "label": "entrante",
+      "groupId": "entrante-0063"
+    },
+    {
+      "id": "entrante-0128",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0128.",
+      "label": "entrante",
+      "groupId": "entrante-0064"
+    },
+    {
+      "id": "entrante-0129",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0129.",
+      "label": "entrante",
+      "groupId": "entrante-0064"
+    },
+    {
+      "id": "entrante-0130",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0130.",
+      "label": "entrante",
+      "groupId": "entrante-0065"
+    },
+    {
+      "id": "entrante-0131",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0131.",
+      "label": "entrante",
+      "groupId": "entrante-0065"
+    },
+    {
+      "id": "entrante-0132",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0132.",
+      "label": "entrante",
+      "groupId": "entrante-0066"
+    },
+    {
+      "id": "entrante-0133",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0133.",
+      "label": "entrante",
+      "groupId": "entrante-0066"
+    },
+    {
+      "id": "entrante-0134",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0134.",
+      "label": "entrante",
+      "groupId": "entrante-0067"
+    },
+    {
+      "id": "entrante-0135",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0135.",
+      "label": "entrante",
+      "groupId": "entrante-0067"
+    },
+    {
+      "id": "entrante-0136",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0136.",
+      "label": "entrante",
+      "groupId": "entrante-0068"
+    },
+    {
+      "id": "entrante-0137",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0137.",
+      "label": "entrante",
+      "groupId": "entrante-0068"
+    },
+    {
+      "id": "entrante-0138",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0138.",
+      "label": "entrante",
+      "groupId": "entrante-0069"
+    },
+    {
+      "id": "entrante-0139",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0139.",
+      "label": "entrante",
+      "groupId": "entrante-0069"
+    },
+    {
+      "id": "entrante-0140",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0140.",
+      "label": "entrante",
+      "groupId": "entrante-0070"
+    },
+    {
+      "id": "entrante-0141",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0141.",
+      "label": "entrante",
+      "groupId": "entrante-0070"
+    },
+    {
+      "id": "entrante-0142",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0142.",
+      "label": "entrante",
+      "groupId": "entrante-0071"
+    },
+    {
+      "id": "entrante-0143",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0143.",
+      "label": "entrante",
+      "groupId": "entrante-0071"
+    },
+    {
+      "id": "entrante-0144",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0144.",
+      "label": "entrante",
+      "groupId": "entrante-0072"
+    },
+    {
+      "id": "entrante-0145",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0145.",
+      "label": "entrante",
+      "groupId": "entrante-0072"
+    },
+    {
+      "id": "entrante-0146",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0146.",
+      "label": "entrante",
+      "groupId": "entrante-0073"
+    },
+    {
+      "id": "entrante-0147",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0147.",
+      "label": "entrante",
+      "groupId": "entrante-0073"
+    },
+    {
+      "id": "entrante-0148",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0148.",
+      "label": "entrante",
+      "groupId": "entrante-0074"
+    },
+    {
+      "id": "entrante-0149",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0149.",
+      "label": "entrante",
+      "groupId": "entrante-0074"
+    },
+    {
+      "id": "entrante-0150",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0150.",
+      "label": "entrante",
+      "groupId": "entrante-0075"
+    },
+    {
+      "id": "entrante-0151",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0151.",
+      "label": "entrante",
+      "groupId": "entrante-0075"
+    },
+    {
+      "id": "entrante-0152",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0152.",
+      "label": "entrante",
+      "groupId": "entrante-0076"
+    },
+    {
+      "id": "entrante-0153",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0153.",
+      "label": "entrante",
+      "groupId": "entrante-0076"
+    },
+    {
+      "id": "entrante-0154",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0154.",
+      "label": "entrante",
+      "groupId": "entrante-0077"
+    },
+    {
+      "id": "entrante-0155",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0155.",
+      "label": "entrante",
+      "groupId": "entrante-0077"
+    },
+    {
+      "id": "entrante-0156",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0156.",
+      "label": "entrante",
+      "groupId": "entrante-0078"
+    },
+    {
+      "id": "entrante-0157",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0157.",
+      "label": "entrante",
+      "groupId": "entrante-0078"
+    },
+    {
+      "id": "entrante-0158",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0158.",
+      "label": "entrante",
+      "groupId": "entrante-0079"
+    },
+    {
+      "id": "entrante-0159",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0159.",
+      "label": "entrante",
+      "groupId": "entrante-0079"
+    },
+    {
+      "id": "entrante-0160",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0160.",
+      "label": "entrante",
+      "groupId": "entrante-0080"
+    },
+    {
+      "id": "entrante-0161",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0161.",
+      "label": "entrante",
+      "groupId": "entrante-0080"
+    },
+    {
+      "id": "entrante-0162",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0162.",
+      "label": "entrante",
+      "groupId": "entrante-0081"
+    },
+    {
+      "id": "entrante-0163",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0163.",
+      "label": "entrante",
+      "groupId": "entrante-0081"
+    },
+    {
+      "id": "entrante-0164",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0164.",
+      "label": "entrante",
+      "groupId": "entrante-0082"
+    },
+    {
+      "id": "entrante-0165",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0165.",
+      "label": "entrante",
+      "groupId": "entrante-0082"
+    },
+    {
+      "id": "entrante-0166",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0166.",
+      "label": "entrante",
+      "groupId": "entrante-0083"
+    },
+    {
+      "id": "entrante-0167",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0167.",
+      "label": "entrante",
+      "groupId": "entrante-0083"
+    },
+    {
+      "id": "entrante-0168",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0168.",
+      "label": "entrante",
+      "groupId": "entrante-0084"
+    },
+    {
+      "id": "entrante-0169",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0169.",
+      "label": "entrante",
+      "groupId": "entrante-0084"
+    },
+    {
+      "id": "entrante-0170",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0170.",
+      "label": "entrante",
+      "groupId": "entrante-0085"
+    },
+    {
+      "id": "entrante-0171",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0171.",
+      "label": "entrante",
+      "groupId": "entrante-0085"
+    },
+    {
+      "id": "entrante-0172",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0172.",
+      "label": "entrante",
+      "groupId": "entrante-0086"
+    },
+    {
+      "id": "entrante-0173",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0173.",
+      "label": "entrante",
+      "groupId": "entrante-0086"
+    },
+    {
+      "id": "entrante-0174",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0174.",
+      "label": "entrante",
+      "groupId": "entrante-0087"
+    },
+    {
+      "id": "entrante-0175",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0175.",
+      "label": "entrante",
+      "groupId": "entrante-0087"
+    },
+    {
+      "id": "entrante-0176",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0176.",
+      "label": "entrante",
+      "groupId": "entrante-0088"
+    },
+    {
+      "id": "entrante-0177",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0177.",
+      "label": "entrante",
+      "groupId": "entrante-0088"
+    },
+    {
+      "id": "entrante-0178",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0178.",
+      "label": "entrante",
+      "groupId": "entrante-0089"
+    },
+    {
+      "id": "entrante-0179",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0179.",
+      "label": "entrante",
+      "groupId": "entrante-0089"
+    },
+    {
+      "id": "entrante-0180",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0180.",
+      "label": "entrante",
+      "groupId": "entrante-0090"
+    },
+    {
+      "id": "entrante-0181",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0181.",
+      "label": "entrante",
+      "groupId": "entrante-0090"
+    },
+    {
+      "id": "entrante-0182",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0182.",
+      "label": "entrante",
+      "groupId": "entrante-0091"
+    },
+    {
+      "id": "entrante-0183",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0183.",
+      "label": "entrante",
+      "groupId": "entrante-0091"
+    },
+    {
+      "id": "entrante-0184",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0184.",
+      "label": "entrante",
+      "groupId": "entrante-0092"
+    },
+    {
+      "id": "entrante-0185",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0185.",
+      "label": "entrante",
+      "groupId": "entrante-0092"
+    },
+    {
+      "id": "entrante-0186",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0186.",
+      "label": "entrante",
+      "groupId": "entrante-0093"
+    },
+    {
+      "id": "entrante-0187",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0187.",
+      "label": "entrante",
+      "groupId": "entrante-0093"
+    },
+    {
+      "id": "entrante-0188",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0188.",
+      "label": "entrante",
+      "groupId": "entrante-0094"
+    },
+    {
+      "id": "entrante-0189",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0189.",
+      "label": "entrante",
+      "groupId": "entrante-0094"
+    },
+    {
+      "id": "entrante-0190",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0190.",
+      "label": "entrante",
+      "groupId": "entrante-0095"
+    },
+    {
+      "id": "entrante-0191",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0191.",
+      "label": "entrante",
+      "groupId": "entrante-0095"
+    },
+    {
+      "id": "entrante-0192",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0192.",
+      "label": "entrante",
+      "groupId": "entrante-0096"
+    },
+    {
+      "id": "entrante-0193",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0193.",
+      "label": "entrante",
+      "groupId": "entrante-0096"
+    },
+    {
+      "id": "entrante-0194",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0194.",
+      "label": "entrante",
+      "groupId": "entrante-0097"
+    },
+    {
+      "id": "entrante-0195",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0195.",
+      "label": "entrante",
+      "groupId": "entrante-0097"
+    },
+    {
+      "id": "entrante-0196",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0196.",
+      "label": "entrante",
+      "groupId": "entrante-0098"
+    },
+    {
+      "id": "entrante-0197",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0197.",
+      "label": "entrante",
+      "groupId": "entrante-0098"
+    },
+    {
+      "id": "entrante-0198",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0198.",
+      "label": "entrante",
+      "groupId": "entrante-0099"
+    },
+    {
+      "id": "entrante-0199",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0199.",
+      "label": "entrante",
+      "groupId": "entrante-0099"
+    },
+    {
+      "id": "entrante-0200",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0200.",
+      "label": "entrante",
+      "groupId": "entrante-0100"
+    },
+    {
+      "id": "entrante-0201",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0201.",
+      "label": "entrante",
+      "groupId": "entrante-0100"
+    },
+    {
+      "id": "entrante-0202",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0202.",
+      "label": "entrante",
+      "groupId": "entrante-0101"
+    },
+    {
+      "id": "entrante-0203",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0203.",
+      "label": "entrante",
+      "groupId": "entrante-0101"
+    },
+    {
+      "id": "entrante-0204",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0204.",
+      "label": "entrante",
+      "groupId": "entrante-0102"
+    },
+    {
+      "id": "entrante-0205",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0205.",
+      "label": "entrante",
+      "groupId": "entrante-0102"
+    },
+    {
+      "id": "entrante-0206",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0206.",
+      "label": "entrante",
+      "groupId": "entrante-0103"
+    },
+    {
+      "id": "entrante-0207",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0207.",
+      "label": "entrante",
+      "groupId": "entrante-0103"
+    },
+    {
+      "id": "entrante-0208",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0208.",
+      "label": "entrante",
+      "groupId": "entrante-0104"
+    },
+    {
+      "id": "entrante-0209",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0209.",
+      "label": "entrante",
+      "groupId": "entrante-0104"
+    },
+    {
+      "id": "entrante-0210",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0210.",
+      "label": "entrante",
+      "groupId": "entrante-0105"
+    },
+    {
+      "id": "entrante-0211",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0211.",
+      "label": "entrante",
+      "groupId": "entrante-0105"
+    },
+    {
+      "id": "entrante-0212",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0212.",
+      "label": "entrante",
+      "groupId": "entrante-0106"
+    },
+    {
+      "id": "entrante-0213",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0213.",
+      "label": "entrante",
+      "groupId": "entrante-0106"
+    },
+    {
+      "id": "entrante-0214",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0214.",
+      "label": "entrante",
+      "groupId": "entrante-0107"
+    },
+    {
+      "id": "entrante-0215",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0215.",
+      "label": "entrante",
+      "groupId": "entrante-0107"
+    },
+    {
+      "id": "entrante-0216",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0216.",
+      "label": "entrante",
+      "groupId": "entrante-0108"
+    },
+    {
+      "id": "entrante-0217",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0217.",
+      "label": "entrante",
+      "groupId": "entrante-0108"
+    },
+    {
+      "id": "entrante-0218",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0218.",
+      "label": "entrante",
+      "groupId": "entrante-0109"
+    },
+    {
+      "id": "entrante-0219",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0219.",
+      "label": "entrante",
+      "groupId": "entrante-0109"
+    },
+    {
+      "id": "entrante-0220",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0220.",
+      "label": "entrante",
+      "groupId": "entrante-0110"
+    },
+    {
+      "id": "entrante-0221",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0221.",
+      "label": "entrante",
+      "groupId": "entrante-0110"
+    },
+    {
+      "id": "entrante-0222",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0222.",
+      "label": "entrante",
+      "groupId": "entrante-0111"
+    },
+    {
+      "id": "entrante-0223",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0223.",
+      "label": "entrante",
+      "groupId": "entrante-0111"
+    },
+    {
+      "id": "entrante-0224",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0224.",
+      "label": "entrante",
+      "groupId": "entrante-0112"
+    },
+    {
+      "id": "entrante-0225",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0225.",
+      "label": "entrante",
+      "groupId": "entrante-0112"
+    },
+    {
+      "id": "entrante-0226",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0226.",
+      "label": "entrante",
+      "groupId": "entrante-0113"
+    },
+    {
+      "id": "entrante-0227",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0227.",
+      "label": "entrante",
+      "groupId": "entrante-0113"
+    },
+    {
+      "id": "entrante-0228",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0228.",
+      "label": "entrante",
+      "groupId": "entrante-0114"
+    },
+    {
+      "id": "entrante-0229",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0229.",
+      "label": "entrante",
+      "groupId": "entrante-0114"
+    },
+    {
+      "id": "entrante-0230",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0230.",
+      "label": "entrante",
+      "groupId": "entrante-0115"
+    },
+    {
+      "id": "entrante-0231",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0231.",
+      "label": "entrante",
+      "groupId": "entrante-0115"
+    },
+    {
+      "id": "entrante-0232",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0232.",
+      "label": "entrante",
+      "groupId": "entrante-0116"
+    },
+    {
+      "id": "entrante-0233",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0233.",
+      "label": "entrante",
+      "groupId": "entrante-0116"
+    },
+    {
+      "id": "entrante-0234",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0234.",
+      "label": "entrante",
+      "groupId": "entrante-0117"
+    },
+    {
+      "id": "entrante-0235",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0235.",
+      "label": "entrante",
+      "groupId": "entrante-0117"
+    },
+    {
+      "id": "entrante-0236",
+      "text": "Ensalada fresca de tomate y pepino. Variante de prueba 0236.",
+      "label": "entrante",
+      "groupId": "entrante-0118"
+    },
+    {
+      "id": "entrante-0237",
+      "text": "Crema suave de calabacin para comenzar. Variante de prueba 0237.",
+      "label": "entrante",
+      "groupId": "entrante-0118"
+    },
+    {
+      "id": "entrante-0238",
+      "text": "Hummus de garbanzos con crudites. Variante de prueba 0238.",
+      "label": "entrante",
+      "groupId": "entrante-0119"
+    },
+    {
+      "id": "entrante-0239",
+      "text": "Tostada de verduras como aperitivo. Variante de prueba 0239.",
+      "label": "entrante",
+      "groupId": "entrante-0119"
+    },
+    {
+      "id": "principal-0000",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0000.",
+      "label": "principal",
+      "groupId": "principal-0000"
+    },
+    {
+      "id": "principal-0001",
+      "text": "Pescado al horno con patatas. Variante de prueba 0001.",
+      "label": "principal",
+      "groupId": "principal-0000"
+    },
+    {
+      "id": "principal-0002",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0002.",
+      "label": "principal",
+      "groupId": "principal-0001"
+    },
+    {
+      "id": "principal-0003",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0003.",
+      "label": "principal",
+      "groupId": "principal-0001"
+    },
+    {
+      "id": "principal-0004",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0004.",
+      "label": "principal",
+      "groupId": "principal-0002"
+    },
+    {
+      "id": "principal-0005",
+      "text": "Pescado al horno con patatas. Variante de prueba 0005.",
+      "label": "principal",
+      "groupId": "principal-0002"
+    },
+    {
+      "id": "principal-0006",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0006.",
+      "label": "principal",
+      "groupId": "principal-0003"
+    },
+    {
+      "id": "principal-0007",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0007.",
+      "label": "principal",
+      "groupId": "principal-0003"
+    },
+    {
+      "id": "principal-0008",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0008.",
+      "label": "principal",
+      "groupId": "principal-0004"
+    },
+    {
+      "id": "principal-0009",
+      "text": "Pescado al horno con patatas. Variante de prueba 0009.",
+      "label": "principal",
+      "groupId": "principal-0004"
+    },
+    {
+      "id": "principal-0010",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0010.",
+      "label": "principal",
+      "groupId": "principal-0005"
+    },
+    {
+      "id": "principal-0011",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0011.",
+      "label": "principal",
+      "groupId": "principal-0005"
+    },
+    {
+      "id": "principal-0012",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0012.",
+      "label": "principal",
+      "groupId": "principal-0006"
+    },
+    {
+      "id": "principal-0013",
+      "text": "Pescado al horno con patatas. Variante de prueba 0013.",
+      "label": "principal",
+      "groupId": "principal-0006"
+    },
+    {
+      "id": "principal-0014",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0014.",
+      "label": "principal",
+      "groupId": "principal-0007"
+    },
+    {
+      "id": "principal-0015",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0015.",
+      "label": "principal",
+      "groupId": "principal-0007"
+    },
+    {
+      "id": "principal-0016",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0016.",
+      "label": "principal",
+      "groupId": "principal-0008"
+    },
+    {
+      "id": "principal-0017",
+      "text": "Pescado al horno con patatas. Variante de prueba 0017.",
+      "label": "principal",
+      "groupId": "principal-0008"
+    },
+    {
+      "id": "principal-0018",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0018.",
+      "label": "principal",
+      "groupId": "principal-0009"
+    },
+    {
+      "id": "principal-0019",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0019.",
+      "label": "principal",
+      "groupId": "principal-0009"
+    },
+    {
+      "id": "principal-0020",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0020.",
+      "label": "principal",
+      "groupId": "principal-0010"
+    },
+    {
+      "id": "principal-0021",
+      "text": "Pescado al horno con patatas. Variante de prueba 0021.",
+      "label": "principal",
+      "groupId": "principal-0010"
+    },
+    {
+      "id": "principal-0022",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0022.",
+      "label": "principal",
+      "groupId": "principal-0011"
+    },
+    {
+      "id": "principal-0023",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0023.",
+      "label": "principal",
+      "groupId": "principal-0011"
+    },
+    {
+      "id": "principal-0024",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0024.",
+      "label": "principal",
+      "groupId": "principal-0012"
+    },
+    {
+      "id": "principal-0025",
+      "text": "Pescado al horno con patatas. Variante de prueba 0025.",
+      "label": "principal",
+      "groupId": "principal-0012"
+    },
+    {
+      "id": "principal-0026",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0026.",
+      "label": "principal",
+      "groupId": "principal-0013"
+    },
+    {
+      "id": "principal-0027",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0027.",
+      "label": "principal",
+      "groupId": "principal-0013"
+    },
+    {
+      "id": "principal-0028",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0028.",
+      "label": "principal",
+      "groupId": "principal-0014"
+    },
+    {
+      "id": "principal-0029",
+      "text": "Pescado al horno con patatas. Variante de prueba 0029.",
+      "label": "principal",
+      "groupId": "principal-0014"
+    },
+    {
+      "id": "principal-0030",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0030.",
+      "label": "principal",
+      "groupId": "principal-0015"
+    },
+    {
+      "id": "principal-0031",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0031.",
+      "label": "principal",
+      "groupId": "principal-0015"
+    },
+    {
+      "id": "principal-0032",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0032.",
+      "label": "principal",
+      "groupId": "principal-0016"
+    },
+    {
+      "id": "principal-0033",
+      "text": "Pescado al horno con patatas. Variante de prueba 0033.",
+      "label": "principal",
+      "groupId": "principal-0016"
+    },
+    {
+      "id": "principal-0034",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0034.",
+      "label": "principal",
+      "groupId": "principal-0017"
+    },
+    {
+      "id": "principal-0035",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0035.",
+      "label": "principal",
+      "groupId": "principal-0017"
+    },
+    {
+      "id": "principal-0036",
+      "text": "Arroz guisado con pollo y verduras. Variante de prueba 0036.",
+      "label": "principal",
+      "groupId": "principal-0018"
+    },
+    {
+      "id": "principal-0037",
+      "text": "Pescado al horno con patatas. Variante de prueba 0037.",
+      "label": "principal",
+      "groupId": "principal-0018"
+    },
+    {
+      "id": "principal-0038",
+      "text": "Lentejas estofadas como plato fuerte. Variante de prueba 0038.",
+      "label": "principal",
+      "groupId": "principal-0019"
+    },
+    {
+      "id": "principal-0039",
+      "text": "Pasta con salsa de tomate y carne. Variante de prueba 0039.",
+      "label": "principal",
+      "groupId": "principal-0019"
+    },
+    {
+      "id": "postre-0000",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0000.",
+      "label": "postre",
+      "groupId": "postre-0000"
+    },
+    {
+      "id": "postre-0001",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0001.",
+      "label": "postre",
+      "groupId": "postre-0000"
+    },
+    {
+      "id": "postre-0002",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0002.",
+      "label": "postre",
+      "groupId": "postre-0001"
+    },
+    {
+      "id": "postre-0003",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0003.",
+      "label": "postre",
+      "groupId": "postre-0001"
+    },
+    {
+      "id": "postre-0004",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0004.",
+      "label": "postre",
+      "groupId": "postre-0002"
+    },
+    {
+      "id": "postre-0005",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0005.",
+      "label": "postre",
+      "groupId": "postre-0002"
+    },
+    {
+      "id": "postre-0006",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0006.",
+      "label": "postre",
+      "groupId": "postre-0003"
+    },
+    {
+      "id": "postre-0007",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0007.",
+      "label": "postre",
+      "groupId": "postre-0003"
+    },
+    {
+      "id": "postre-0008",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0008.",
+      "label": "postre",
+      "groupId": "postre-0004"
+    },
+    {
+      "id": "postre-0009",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0009.",
+      "label": "postre",
+      "groupId": "postre-0004"
+    },
+    {
+      "id": "postre-0010",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0010.",
+      "label": "postre",
+      "groupId": "postre-0005"
+    },
+    {
+      "id": "postre-0011",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0011.",
+      "label": "postre",
+      "groupId": "postre-0005"
+    },
+    {
+      "id": "postre-0012",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0012.",
+      "label": "postre",
+      "groupId": "postre-0006"
+    },
+    {
+      "id": "postre-0013",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0013.",
+      "label": "postre",
+      "groupId": "postre-0006"
+    },
+    {
+      "id": "postre-0014",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0014.",
+      "label": "postre",
+      "groupId": "postre-0007"
+    },
+    {
+      "id": "postre-0015",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0015.",
+      "label": "postre",
+      "groupId": "postre-0007"
+    },
+    {
+      "id": "postre-0016",
+      "text": "Tarta dulce de manzana con canela. Variante de prueba 0016.",
+      "label": "postre",
+      "groupId": "postre-0008"
+    },
+    {
+      "id": "postre-0017",
+      "text": "Bizcocho de chocolate para terminar. Variante de prueba 0017.",
+      "label": "postre",
+      "groupId": "postre-0008"
+    },
+    {
+      "id": "postre-0018",
+      "text": "Flan de vainilla con caramelo. Variante de prueba 0018.",
+      "label": "postre",
+      "groupId": "postre-0009"
+    },
+    {
+      "id": "postre-0019",
+      "text": "Crema dulce de yogur y fruta. Variante de prueba 0019.",
+      "label": "postre",
+      "groupId": "postre-0009"
+    }
+  ],
+  "sourceType": "GROUPED"
+}
